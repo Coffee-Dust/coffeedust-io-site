@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavMenu() {
   return (
-    <div>
+    <div className="App-nav-menu">
       
     </div>
   );
