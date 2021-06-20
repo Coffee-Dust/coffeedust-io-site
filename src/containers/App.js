@@ -1,7 +1,7 @@
 import logo from '../assets/logo.svg';
 import '../css/App.css';
 import NavMenu from '../components/NavMenu';
-import { Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from '../Routes';
 
 function App() {
