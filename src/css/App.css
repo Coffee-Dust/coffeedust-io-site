@@ -12,3 +12,13 @@
   width: 10%;
 }
 
+.App-nav-menu {
+  margin: auto;
+  width: 25%;
+}
+
+.App-nav-menu nav a {
+  text-decoration: none;
+  color: black;
+}
+
