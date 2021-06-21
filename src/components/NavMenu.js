@@ -5,11 +5,8 @@ function NavMenu() {
   return (
     <div className="App-nav-menu">
       <nav>
-        <ul>
-          <li>
-            <Link to="/about">about me</Link>
-          </li>
-        </ul>
+        <Link to="/about">about me</Link>
+        
       </nav>
     </div>
   );
