@@ -27,10 +27,10 @@
 .App-content-container {
   margin-right: 7%;
   width: 55%;
-  background: rgba(32, 0, 0, 0.6);
+  background: #141414dc;
   color: antiquewhite;
   -webkit-backdrop-filter: blur(5px);
   -moz-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  box-shadow: 5px 15px 15px 5px #000000;
+  box-shadow: 5px 10px 15px 10px #000000e7;
 }
