@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
         <NavMenu />
-        <main className="App-content-box">
+        <main className="App-content-container">
           <Routes />
         </main>
       </div>
