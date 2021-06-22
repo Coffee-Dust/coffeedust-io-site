@@ -4,7 +4,7 @@ import BlogsContainer from '../containers/Blogs';
 function BlogPage() {
   return (
     <div className="page-content">
-      
+      <BlogsContainer />
     </div>
   );
 }
