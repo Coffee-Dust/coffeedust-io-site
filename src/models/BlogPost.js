@@ -3,7 +3,7 @@ class BlogPost {
     this.data = data
   }
 
-  get renderThumbnail() {
+  get thumbnailNode() {
     const removeHTMLTags = desc => (
       desc.split("")
         .filter((v, i, a) => !(v === "<" || v === ">" || a[i - 1] === "<" || a[i + 1] === ">"))
