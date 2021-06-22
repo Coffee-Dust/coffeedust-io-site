@@ -15,6 +15,18 @@ class BlogPost extends Component {
     </div>
   )
 
+  expandedView = _=> (
+    <div className="Blogs-post-expanded">
+      <header style={`background-image: url('${this.props.thumbnail}')`}>
+        <h4>{this.props.title}</h4>
+      </header>
+
+      <article>
+        {this.props.content}
+      </article>
+    </div>
+  )
+
   render() {
     return (
       <div>
