@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 class BlogPost extends Component {
 
+  state = {
+    expandedViewIsActive: false
+  }
+
   thumbnail = _=> (
     <div key={this.data.guid} className="Blogs-thumbnail">
       <img src={this.data.thumbnail} alt="" />
