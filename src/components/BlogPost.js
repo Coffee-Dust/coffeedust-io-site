@@ -7,11 +7,11 @@ class BlogPost extends Component {
   }
 
   thumbnailView = _=> (
-    <div key={this.data.guid} className="Blogs-thumbnail" 
+    <div key={this.props.guid} className="Blogs-thumbnail" 
     onClick={_=> this.setState({expandedViewIsActive: true})} >
-      <img src={this.data.thumbnail} alt="" />
-      <h4>{this.data.title}</h4>
-      <p>{removeHTMLTags(this.data.description.slice(0, 49))}...</p>
+      <img src={this.props.thumbnail} alt="" />
+      <h4>{this.props.title}</h4>
+      <p>{removeHTMLTags(this.props.description.slice(0, 49))}...</p>
     </div>
   )
 
@@ -34,7 +34,7 @@ class BlogPost extends Component {
       </div>
     );
   }
-  
+
 }
 
 export default BlogPost;
