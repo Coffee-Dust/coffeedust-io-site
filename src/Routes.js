@@ -9,6 +9,9 @@ function Routes() {
       <Route path="/about">
         <AboutPage />
       </Route>
+      <Route path="/blog">
+        <BlogPage />
+      </Route>
     </Switch>
   );
 }
