@@ -8,4 +8,4 @@ function BlogPage() {
   );
 }
 
-export default blog;
+export default BlogPage;
