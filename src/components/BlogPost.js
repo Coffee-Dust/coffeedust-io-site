@@ -6,7 +6,7 @@ class BlogPost extends Component {
     expandedViewIsActive: false
   }
 
-  thumbnail = _=> (
+  thumbnailView = _=> (
     <div key={this.data.guid} className="Blogs-thumbnail" 
     onClick={_=> this.setState({expandedViewIsActive: true})} >
       <img src={this.data.thumbnail} alt="" />
