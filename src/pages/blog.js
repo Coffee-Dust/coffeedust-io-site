@@ -3,7 +3,7 @@ import BlogsContainer from '../containers/Blogs';
 
 function BlogPage() {
   return (
-    <div>
+    <div className="page-content">
       
     </div>
   );
