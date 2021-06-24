@@ -30,7 +30,7 @@ class BlogPost extends Component {
     <div className="Blogs-post-expanded">
       <div style={{backgroundImage: this.props.thumbnail}}>
         <h4>{this.props.title}</h4>
-      </header>
+      </div>
 
       <article dangerouslySetInnerHTML={{__html: this.props.content}} />
     </div>
