@@ -6,6 +6,12 @@ class BlogPost extends Component {
     expandedViewIsActive: false
   }
 
+  removeHTMLTags = desc=> (
+    desc.split("")
+    .filter((v, i, a) => !(v === "<" || v === ">" || a[i - 1] === "<" || a[i + 1] === ">"))
+    .join("")
+  )
+
   thumbnailView = _=> (
     <div key={this.props.guid} className="Blogs-thumbnail" 
     onClick={_=> this.setState({expandedViewIsActive: true})} >
