@@ -28,9 +28,9 @@ class BlogPost extends Component {
 
   expandedView = _=> (
     <div className="Blogs-post-expanded">
-      <div style={{backgroundImage: this.props.thumbnail}}>
+      <header style={{backgroundImage: this.props.thumbnail}}>
         <h4>{this.props.title}</h4>
-      </div>
+      </header>
 
       <article dangerouslySetInnerHTML={{__html: this.props.content}} />
     </div>
