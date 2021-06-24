@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../assets/css/Blogs.css'
 import BlogPost from '../components/BlogPost'
 
 class BlogsContainer extends Component {
