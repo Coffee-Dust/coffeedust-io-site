@@ -17,7 +17,7 @@ class BlogsContainer extends Component {
   render() {
     return (
       <div>
-        
+        {this.state.posts}
       </div>
     );
   }
