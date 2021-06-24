@@ -39,11 +39,7 @@ class BlogPost extends Component {
   )
 
   render() {
-    return (
-      <div>
-        
-      </div>
-    );
+    return this.thumbnailView()
   }
 
 }
