@@ -22,6 +22,7 @@ class BlogPost extends Component {
       <img src={this.props.thumbnail} alt="" />
       <h4>{this.props.title}</h4>
       <p>{this.removeHTMLTags(this.props.description.slice(0, 49))}...</p>
+      {(this.state.expandedViewIsActive) ? this.expandedView() : null }
     </div>
   )
 
