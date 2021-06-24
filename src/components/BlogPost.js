@@ -6,6 +6,10 @@ class BlogPost extends Component {
     expandedViewIsActive: false
   }
 
+  toggleExpandedView = _=> {
+    this.setState(prev=> ({expandedViewIsActive: !prev.expandedViewIsActive}))
+  }
+
   removeHTMLTags = desc=> (
     desc.split("")
     .filter((v, i, a) => !(v === "<" || v === ">" || a[i - 1] === "<" || a[i + 1] === ">"))
@@ -14,7 +18,7 @@ class BlogPost extends Component {
 
   thumbnailView = _=> (
     <div key={this.props.guid} className="Blogs-thumbnail" 
-    onClick={_=> this.setState({expandedViewIsActive: true})} >
+    onClick={this.toggleExpandedView} >
       <img src={this.props.thumbnail} alt="" />
       <h4>{this.props.title}</h4>
       <p>{this.removeHTMLTags(this.props.description.slice(0, 49))}...</p>
