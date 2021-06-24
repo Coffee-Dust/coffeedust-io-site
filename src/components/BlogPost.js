@@ -32,9 +32,7 @@ class BlogPost extends Component {
         <h4>{this.props.title}</h4>
       </header>
 
-      <article>
-        {this.props.content}
-      </article>
+      <article dangerouslySetInnerHTML={{__html: this.props.content}} />
     </div>
   )
 
