@@ -11,7 +11,7 @@ class BlogPost extends Component {
     onClick={_=> this.setState({expandedViewIsActive: true})} >
       <img src={this.props.thumbnail} alt="" />
       <h4>{this.props.title}</h4>
-      <p>{removeHTMLTags(this.props.description.slice(0, 49))}...</p>
+      <p>{this.removeHTMLTags(this.props.description.slice(0, 49))}...</p>
     </div>
   )
 
