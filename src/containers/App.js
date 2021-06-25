@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
         <NavMenu />
-        <main className="App-content-container">
+        <main className="App-content-container blur-backdrop">
           <Routes />
         </main>
       </div>
