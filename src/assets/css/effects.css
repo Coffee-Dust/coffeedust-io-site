@@ -5,3 +5,9 @@
 .sun-text-shadow {
   text-shadow: 5px 5px 4px #000000;
 }
+
+.blur-backdrop {
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
