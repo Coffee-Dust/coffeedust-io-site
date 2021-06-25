@@ -6,8 +6,11 @@ class BlogPost extends Component {
     expandedViewIsActive: false
   }
 
-  toggleExpandedView = _=> {
-    this.setState(prev=> ({expandedViewIsActive: !prev.expandedViewIsActive}))
+  toggleExpandedView = event=> {
+    if (event.currentTarget.classList.contains("Blogs-thumbnail")) {
+      event.currentTarget.classList.toggle("expanded")
+      event.currentTarget.parentNode.classList.toggle("column-view")
+    }
   }
 
   removeHTMLTags = desc=> (
