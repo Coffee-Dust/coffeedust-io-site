@@ -19,28 +19,18 @@ class BlogPost extends Component {
     .join("")
   )
 
-  thumbnailView = _=> (
-    <div key={this.props.guid} className="Blogs-thumbnail" 
-    onClick={this.toggleExpandedView} >
-      <img src={this.props.thumbnail} alt="" />
-      <h4>{this.props.title}</h4>
-      <p>{this.removeHTMLTags(this.props.description.slice(0, 49))}...</p>
-      {(this.state.expandedViewIsActive) ? this.expandedView() : null }
-    </div>
-  )
 
-  expandedView = _=> (
-    <div className="Blogs-post-expanded">
-      <header style={{backgroundImage: this.props.thumbnail}}>
-        <h4>{this.props.title}</h4>
-      </header>
+  render() {
+    return (
+    <div className="Blogs-thumbnail sun-box-shadow" 
+    style={{ backgroundImage: `url(${this.props.thumbnail})` }}
+    onClick={this.toggleExpandedView} >
+      <h2>{this.props.title}</h2>
+      <p>{this.removeHTMLTags(this.props.description.slice(0, 49))}...</p>
 
       <article dangerouslySetInnerHTML={{__html: this.props.content}} />
     </div>
-  )
-
-  render() {
-    return this.thumbnailView()
+    );
   }
 
 }
