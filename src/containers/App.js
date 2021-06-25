@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg';
 import '../assets/css/App.css';
+import '../assets/css/effects.css';
 import NavMenu from '../components/NavMenu';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from '../Routes';
