@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import projectInfo from '../data/project_info.json'
 
 class ProjectsContainer extends Component {
   render() {
