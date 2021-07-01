@@ -8,4 +8,4 @@ function ProjectsPage() {
   );
 }
 
-export default projects;
+export default ProjectsPage;
