@@ -57,3 +57,7 @@
   box-shadow: 5px 10px 15px 10px #000000e7;
   overflow: scroll;
 }
+
+.Page-content {
+  padding: 10px;
+}
