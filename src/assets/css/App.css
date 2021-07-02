@@ -33,7 +33,8 @@
 }
 
 .App-nav-menu > nav > a {
-  display: inline;
+  z-index: 99;
+  display: block;
   text-shadow: 5px 5px 4px #000000;
 }
 .App-nav-menu > nav > a {
@@ -55,8 +56,8 @@
 
 
 .App-content-container {
-  margin-right: 7%;
-  width: 55%;
+  margin-right: 5%;
+  width: 75%;
   /* background: #141414dc; */
   background: #fcf2e6b2;
   color: black;
