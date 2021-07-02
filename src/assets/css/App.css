@@ -6,24 +6,30 @@
   background-size: cover;
 }
 
+.App-nav-menu {
+  width: 25%;
+  display: grid;
+  padding-left: 2%;
+  grid-template-areas: 
+  'l'
+  'n'
+  'n'
+  'n'
+  's';
+}
+
 .App-logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  height: 16%;
-  width: 16%;
+  grid-area: l;
+  width: 65%;
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 
-.App-nav-menu {
-  margin: auto;
-  width: 25%;
+.App-nav-menu > nav {
+  grid-area: n;
 }
 
-.App-nav-menu > nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.App-social-links {
+  grid-area: s;
 }
 
 .App-nav-menu > nav > a {
