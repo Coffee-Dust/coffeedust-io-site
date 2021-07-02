@@ -1,4 +1,3 @@
-import logo from '../assets/logo.svg';
 import '../assets/css/App.css';
 import '../assets/css/effects.css';
 import NavMenu from '../components/NavMenu';
@@ -9,7 +8,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
         <NavMenu />
         <main className="App-content-container blur-backdrop">
           <Routes />

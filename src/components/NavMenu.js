@@ -1,9 +1,11 @@
 import React from 'react';
 import {NavLink} from "react-router-dom"
+import logo from '../assets/logo.svg';
 
 function NavMenu() {
   return (
     <div className="App-nav-menu">
+      <img src={logo} className="App-logo" alt="logo" />
       <nav>
         <NavLink to="/about">about me</NavLink>
         <NavLink to="/blog">my blog</NavLink>
