@@ -1,0 +1,79 @@
+.Projects-container {
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.Project-app-div {
+  position: relative;
+  max-width: 315px;
+  max-height: 315px;
+  min-width: 315px;
+  min-height: 315px;
+  width: 100%;
+  height: 100%;
+  margin: 1%;
+
+  justify-self: center;
+  align-self: center;
+
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(var(--animation-order) * 200ms);
+}
+.Project-app-div > img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.Project-app-div > .Project-info {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .Projects-container {
+
+    justify-content: center;
+  }
+
+  .Project-app-div {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Projects-container {
+
+    justify-content: center;
+  }
+
+  .Project-app-div {
+    width: 80%;
+  }
+}
+
+.Project-app-div > .icon-shadow {
+  position: absolute;
+  z-index: 1;
+  top: 5.6%;
+  left: 5.6%;
+  border-radius: 75px;
+  width: 88%;
+  height: 88%;
+  margin: auto;
+  box-shadow: 7px 15px 15px 10px #000000da;
+}
