@@ -24,7 +24,7 @@ class ProjectsContainer extends Component {
       <div className="Projects-container">
         {
           (this.state.opened) ?
-          <ProjectDetails {...projectInfo.projects[this.state.opened]} />
+          <ProjectDetails {...projectInfo.projects[this.state.opened]} closeDetails={this.toggleProjectDetails} />
           :
           null
         }
