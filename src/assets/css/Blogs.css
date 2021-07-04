@@ -1,10 +1,13 @@
 .Blogs-container {
+  position: relative;
+  z-index: 1;
   margin: 0 auto;
   display: flex;
-  width: 98%;
   flex-flow: row wrap;
   align-items: center;
   justify-content: flex-start;
+  overflow-x: hidden;
+  height: 100vh;
 }
 
 .Blogs-container.column-view {
@@ -13,7 +16,9 @@
 }
 
 
+/* Blog thumbnails: */
 .Blogs-thumbnail {
+  background: #250a01;
   overflow: hidden;
   margin: 5px;
   margin-top: 20px;
@@ -22,9 +27,10 @@
   background-size: cover;
   align-self: auto;
   padding: 10px;
-  border-radius: 5px;
-  -webkit-box-shadow: inset 0px 0px 22px -6px #000000; 
-  box-shadow: inset 0px 0px 22px -6px #000000;
+  border-radius: 25px;
+  /* -webkit-box-shadow: inset 0px 0px 15px -6px #ffffff;  */
+  /* box-shadow: inset 0px 0px 15px -6px #ffffff; */
+  box-shadow: 5px 10px 15px 10px #00000096;
   transition: width 0.5s, height 0.5s;
   cursor: pointer;
 }
@@ -44,34 +50,40 @@
   border-radius: 5px;
 }
 
-.Blogs-thumbnail > article {
-  font-size: 0em;
-  opacity: 0;
-  transition: font-size 1.25s, opacity 1.25s;
-}
 
-/* Expanded thumbnail: */
-.Blogs-thumbnail.expanded {
-  width: 98%;
-  height: 100%;
+/* Fullscreen post */
+.Blogs-post {
+  z-index: 2;
+  width: 100%;
   padding: 20px;
-  background-size: 100% 300px;
-  background-repeat: no-repeat;
+  background: #fcf2e6b2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation: animate-blog-in 500ms ease-out;
+  -webkit-animation: animate-blog-in 500ms ease-out;
+  overflow: auto;
+  height: 100vh;
 }
 
-.Blogs-thumbnail.expanded > article {
-  font-size: 1em;
-  opacity: 1;
+@keyframes animate-blog-in {
+  0%{transform: translateX(100%)}
+  100%{transform: translateX(0%)}
 }
 
-.Blogs-thumbnail.expanded > p {
-  display: none;
+@keyframes animate-close-ani {
+  0%{transform: translateX(0%);}
+  100%{transform: translateX(100%);}
 }
 
-.Blogs-thumbnail.expanded > article {
+.Blogs-post.animate-close {
+  animation: animate-close-ani 500ms ease-out;
+}
+
+.Blogs-post > article {
   margin-top: 250px;
 }
 
-.Blogs-thumbnail.expanded article > figure > img {
+.Blogs-post article > figure > img {
   max-width: 100%;
 }
