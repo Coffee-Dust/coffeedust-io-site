@@ -1,4 +1,5 @@
 .App {
+  position: relative;
   display: flex;
   height: 100vh;
   overflow: hidden;
@@ -55,15 +56,17 @@
 
 
 .App-content-container {
+  position: relative;
   margin-right: 5%;
   width: 75%;
   /* background: #141414dc; */
   background: #fcf2e6b2;
   color: black;
   box-shadow: 5px 10px 15px 10px #000000e7;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .Page-content {
-  padding: 10px;
+  position: relative;
+  /* padding: 10px; */
 }
