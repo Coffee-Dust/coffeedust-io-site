@@ -14,8 +14,10 @@ function BlogThumbnail({idx, title, description, thumbnail, openPost}) {
     style={{ backgroundImage: `url(${thumbnail})` }}
     onClick={openPost}
     >
-      <h2>{title}</h2>
-      <p>{description}</p>
+      <div className="info-wrapper">
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
     </div>
   );
 }
