@@ -13,6 +13,7 @@ function ProjectDetails(props) {
 
   return (
     <div className="Project-details">
+      <button className="close" onClick={props.closeDetails}>x</button>
       <img src={require(`./../assets/project_icons/${props.id}_icon.png`).default} alt="" />
       <h2>{props.name}</h2>
       <div className="links">
