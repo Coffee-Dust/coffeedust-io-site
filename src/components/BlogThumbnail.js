@@ -1,7 +1,7 @@
 import React from 'react';
 
 function BlogThumbnail({idx, title, description, thumbnail, openPost}) {
-  const descCharLimit = 49
+  const descCharLimit = 69
   // Removes HTML tags from description
   description = description.slice(0, descCharLimit).split("")
   .filter((v, i, a) => !(v === "<" || v === ">" || a[i - 1] === "<" || a[i + 1] === ">"))
