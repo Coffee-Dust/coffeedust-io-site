@@ -81,6 +81,19 @@
   height: 225px;
 }
 
+@keyframes animate-closing {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(0);
+  }
+}
+
+.Project-details.closing {
+  animation: animate-closing 500ms;
+}
+
 @media only screen and (max-width: 700px) {
   .Projects-container {
 
