@@ -30,6 +30,8 @@ function ProjectDetails(props) {
         }
       </div>
       <p>{props.desc}</p>
+
+      <div className="screenshots"></div>
     </div>
   );
 }
