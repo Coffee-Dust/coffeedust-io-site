@@ -12,6 +12,7 @@ function NavMenu() {
         <NavLink to="/projects">my projects</NavLink>
         <NavLink to="/resume">my resume</NavLink>
       </nav>
+      <SocialLinks />
     </div>
   );
 }
