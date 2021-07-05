@@ -3,7 +3,9 @@
   z-index: 1;
   margin: 0 auto;
   overflow-x: hidden;
-  height: 100vh;
+  /* height: 100vh; */
+  /* commenting out the above causes the adjustScrollToTop to not work anymore. */
+  height: 100%;
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
@@ -85,7 +87,7 @@
   animation: animate-blog-in 500ms ease-out;
   -webkit-animation: animate-blog-in 500ms ease-out;
   overflow: auto;
-  height: 100vh;
+  height: 100%;
 }
 
 .Blogs-post > img {
