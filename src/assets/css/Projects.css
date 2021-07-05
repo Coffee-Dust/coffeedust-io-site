@@ -76,6 +76,12 @@
   animation: animate-opening 500ms;
 }
 
+.Project-details > button.close {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .Project-details > img {
   width: 225px;
   height: 225px;
