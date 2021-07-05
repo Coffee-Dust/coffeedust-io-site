@@ -8,9 +8,9 @@ function NavMenu() {
       <img src={logo} className="App-logo" alt="logo" />
       <nav>
         <NavLink to="/about">about me</NavLink>
-        <NavLink to="/blog">my blog</NavLink>
-        <NavLink to="/projects">my projects</NavLink>
-        <NavLink to="/resume">my resume</NavLink>
+        <NavLink to="/blog">blog</NavLink>
+        <NavLink to="/projects">projects</NavLink>
+        <NavLink to="/resume">resume</NavLink>
       </nav>
       <SocialLinks />
     </div>
