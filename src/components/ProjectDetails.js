@@ -23,7 +23,7 @@ function ProjectDetails(props) {
       <h2>{props.name}</h2>
       <div className="links">
         <button className="repo" onClick={goToRepo}> <img src={gitHubLogo} /> repo</button>
-        <button className="demo" onClick={startDemo}>Live Demo</button>
+        <button className="demo" onClick={startDemo}>Interactive Demo</button>
       </div>
       <p>{props.desc}</p>
     </div>
