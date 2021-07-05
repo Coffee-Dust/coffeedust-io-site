@@ -88,6 +88,29 @@
   height: 225px;
 }
 
+.Project-details > h2 {
+  color: antiquewhite;
+}
+
+.Project-details > p {
+  color: antiquewhite;
+  white-space: pre-wrap;
+}
+
+.Project-details > .links > button {
+  background: antiquewhite;
+  border-radius: 10px;
+  color: #250a01e1;
+  font-family: 'Source-Code-Pro', monospace;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.Project-details > .links > .repo > img {
+  height: 25px;
+}
+
 @keyframes animate-closing {
   0%{
     transform: scale(1);
@@ -101,25 +124,10 @@
   animation: animate-closing 500ms;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .Projects-container {
 
-    justify-content: center;
-  }
-
-  .Project-app-div {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .Projects-container {
-
-    justify-content: center;
-  }
-
-  .Project-app-div {
-    width: 80%;
+    grid-template-columns: 1fr;
   }
 }
 
