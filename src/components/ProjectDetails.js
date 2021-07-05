@@ -22,8 +22,12 @@ function ProjectDetails(props) {
       <img src={require(`./../assets/project_icons/${props.id}_icon.png`).default} alt="" />
       <h2>{props.name}</h2>
       <div className="links">
-        <button className="repo" onClick={goToRepo}> <img src={gitHubLogo} /> repo</button>
-        <button className="demo" onClick={startDemo}>Interactive Demo</button>
+        {
+          (props.repo) ? <button className="repo" onClick={goToRepo}> <img src={gitHubLogo} /> github repo</button> : null
+        }
+        {
+          (props.demo) ? <button className="demo" onClick={startDemo}>Launch Interactive Demo</button> : null
+        }
       </div>
       <p>{props.desc}</p>
     </div>
