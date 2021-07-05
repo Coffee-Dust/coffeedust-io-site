@@ -20,7 +20,8 @@
 
 .App-logo {
   grid-area: l;
-  width: 65%;
+  max-width: 175px;
+  width: 75%;
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 
@@ -31,27 +32,80 @@
 .App-social-links {
   grid-area: s;
 }
+.App-social-links > a > img {
+  max-width: 75px;
+  width: 30%;
+  margin-right: 30px;
+}
+
+.App-nav-menu > nav {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  
+  /* --scale-factor: calc(100 * 0.01); */
+}
 
 .App-nav-menu > nav > a {
+  position: relative;
   z-index: 99;
   display: block;
+  margin-top: 20px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
   text-shadow: 5px 5px 4px #000000;
-}
-.App-nav-menu > nav > a {
-  transition: 0.5s;
+
   text-decoration: none;
   color: antiquewhite;
-  font-size: 3.6vw;
-  margin-top: 15px;
+  /* font-size: 2.4vw; */
+  /* font-size: 100%; */
+  font-size: 2em;
+  animation: link-hover-out 500ms;
+  /* animation-fill-mode: backwards; */
+  transform-origin: left;
+  /* transform: scale(1) translateX(0); */
+  transform: scale(1);
+  transition: color 0.5s;
 }
+
 .App-nav-menu > nav > a:hover {
-  transition: 0.5s;
-  font-size: 4.2vw;
+  animation: link-hover 500ms;
+  font-weight: 500;
+  /* transform: scale(1.5) translateX(14%); */
+  transform: scale(var(--scale-factor));
+}
+.App-nav-menu > nav > a.active:hover {
+  animation: none;
+  /* transform: scale(1.5) translateX(14%); */
+  transform: scale(var(--scale-factor));
 }
 .App-nav-menu > nav > a.active {
-  transition: 0.5s;
-  font-size: 4.2vw;
+  transition: color 0.5s;
+  font-weight: 500;
   color: #2c1104;
+  animation: none;
+  /* transform: scale(1.5) translateX(14%); */
+  transform: scale(var(--scale-factor));
+}
+
+@keyframes link-hover {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    /* transform: scale(1.5) translateX(14%); */
+    transform: scale(var(--scale-factor));
+  }
+}
+
+@keyframes link-hover-out {
+  0%{
+    /* transform: scale(1.5) translateX(14%); */
+    transform: scale(var(--scale-factor));
+  }
+  100%{
+    transform: scale(1) translateX(0);
+  }
 }
 
 
@@ -69,4 +123,11 @@
 .Page-content {
   position: relative;
   /* padding: 10px; */
+}
+
+button.close {
+  background: darkred;
+  font-size: 1.3em;
+  padding: 10px;
+  border-radius: 100px;
 }
