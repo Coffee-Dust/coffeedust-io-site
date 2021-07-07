@@ -12,6 +12,7 @@ function App() {
         <main className="App-content-container blur-backdrop">
           <Routes />
         </main>
+        <h3 className="version-msg">public beta 2.0</h3>
       </div>
     </Router>
   );
