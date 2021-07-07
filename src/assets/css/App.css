@@ -136,3 +136,12 @@ button.close {
   padding: 10px;
   border-radius: 100px;
 }
+
+.version-msg {
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+  z-index: 999;
+  color: antiquewhite;
+  text-shadow: 4px 4px 4px #000000;
+}
