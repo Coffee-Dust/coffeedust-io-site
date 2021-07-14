@@ -41,7 +41,8 @@
   border-radius: 50px;
   /* -webkit-box-shadow: inset 0px 0px 15px -6px #ffffff;  */
   /* box-shadow: inset 0px 0px 15px -6px #ffffff; */
-  box-shadow: 5px 10px 15px 10px #00000096;
+  box-shadow: 5px 13px 15px 8px #000000da;
+  
   transition: width 0.5s, height 0.5s;
   cursor: pointer;
   display: flex;
