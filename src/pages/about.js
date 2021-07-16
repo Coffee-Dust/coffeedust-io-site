@@ -31,16 +31,9 @@ function AboutPage() {
             <CodeIcon id="html" />
           </div>
 
-        <div>
-          <h4>Experienced in these technologies/frameworks</h4>
-          <ul>
-            <li>Object Oriented Programming</li>
-            <li>Ruby on Rails</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>(even more...)</li>
-          </ul>
-        </div>
+          <div className="knawledge-desc">
+            {stackKnawledgeDesc[displayedKnawledgeID]}
+          </div>
       </article>
 
       {/* <p>I'm baby brunch activated charcoal offal tousled cliche. Gochujang banh mi godard master cleanse gentrify quinoa aesthetic enamel pin. Celiac mlkshk trust fund fingerstache. Next level kinfolk knausgaard, XOXO raclette gluten-free affogato lumbersexual ramps viral raw denim coloring book. Venmo viral everyday carry readymade kogi tattooed. Mlkshk palo santo affogato selvage bicycle rights unicorn bushwick hell of listicle godard. Viral deep v umami, listicle cold-pressed chartreuse chia aesthetic irony polaroid 90's mumblecore sartorial.</p> */}
