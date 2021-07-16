@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/AboutPage.css'
+import stackKnawledgeDesc from '../data/knawledge_stack_desc.json'
 
 function AboutPage() {
   const [displayedKnawledgeID, setDisplayedKnawledgeID] = React.useState("ruby");
