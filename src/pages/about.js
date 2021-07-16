@@ -2,6 +2,13 @@ import React from 'react';
 import '../assets/css/AboutPage.css'
 
 function AboutPage() {
+  const [displayedKnawledgeID, setDisplayedKnawledgeID] = React.useState("ruby");
+  const displayKnawledge = event=> setDisplayedKnawledgeID(event.currentTarget.id)
+
+  const CodeIcon = props=> (
+    <img id={props.id} src={require(`./../assets/code_icons/${props.id}.png`).default} alt="click to view more" onClick={displayKnawledge} />
+  )
+
   return (
     <div className="Page-content">
       <h1>$ whoami</h1>
