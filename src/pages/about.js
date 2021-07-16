@@ -18,15 +18,18 @@ function AboutPage() {
         <h2>Hi! I'm John Dust,</h2>
         <p className="intro">A software engineer with a passion for <em>coffee</em> ☕️ <br/>that is experienced in <em>Full Stack Web Development</em>, <em>Game Design</em> and <em>Object Oriented Programming</em>.</p>
 
-        <div>
-          <h4>Languages I am well versed in</h4>
-          <ul>
-            <li>Javascript</li>
-            <li>Ruby</li>
-            <li>HTML/CSS</li>
-            <li>Swift</li>
-          </ul>
-        </div>
+        <section className="knawledge background-blur">
+          <h2>My knowledge stack</h2>
+          <div className="icon-list langs">
+            <CodeIcon id="ruby" />
+            <CodeIcon id="js"/>
+            <CodeIcon id="swift" />
+          </div>
+          <div className="icon-list techs">
+            <CodeIcon id="rails" />
+            <CodeIcon id="react" />
+            <CodeIcon id="html" />
+          </div>
 
         <div>
           <h4>Experienced in these technologies/frameworks</h4>
