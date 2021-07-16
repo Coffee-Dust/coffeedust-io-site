@@ -20,7 +20,7 @@
 
 .App-logo {
   grid-area: l;
-  max-width: 175px;
+  max-width: 160px;
   width: 75%;
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
