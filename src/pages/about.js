@@ -7,7 +7,7 @@ function AboutPage() {
   const displayKnawledge = event=> setDisplayedKnawledgeID(event.currentTarget.id)
 
   const CodeIcon = props=> (
-    <img id={props.id} src={require(`./../assets/code_icons/${props.id}.png`).default} alt="click to view more" onClick={displayKnawledge} />
+    <img id={props.id} src={require(`./../assets/code_icons/${props.id}.png`).default} alt="click to view more" onClick={displayKnawledge} className={(displayedKnawledgeID === props.id) ? "active" : ""}/>
   )
 
   return (
