@@ -1,4 +1,95 @@
 .Page-about {
-  margin: 0 30px;
+  margin: 0 auto;
   margin-top: 40px;
+  width: 90%;
+}
+
+.Page-about {
+  display: grid;
+  grid-template-areas: 
+  'p ih2 ih2'
+  'p i i'
+  'sk sk sk'
+  'sk sk sk';
+}
+
+.Page-about em {
+  font-family: "Source Code Pro";
+  font-weight: 600;
+}
+
+.Page-about > .my-face {
+  /* height: 20%; */
+  width: 100%;
+  border-radius: 15px;
+  grid-area: p;
+}
+
+.Page-about > h2 {
+  /* width: 75%; */
+  /* padding-right: 10px; */
+  padding-left: 15px;
+  display: block;
+  grid-area: ih2;
+  font-size: 1.7em;
+}
+
+.Page-about > p.intro {
+  grid-area: i;
+  padding-left: 15px;
+  font-size: 1.1em;
+}
+
+.Page-about > section.knawledge {
+  /* width: 100%; */
+  /* height: 100%; */
+  margin-top: 50px;
+  grid-area: sk;
+  display: grid;
+  grid-template-areas: 
+  't t t'
+  'ill ill .'
+  '. ilt ilt'
+  'kd kd kd'
+  'kd kd kd';
+}
+
+.Page-about > section > h2 {
+  display: inline;
+  width: 100%;
+  grid-area: t;
+}
+
+.Page-about > section > .icon-list {
+  /* height: 70px; */
+  /* width: 55%; */
+  height: 100%;
+  border: 3px solid #2c1104;
+  border-radius: 15px;
+  background-color: #2c1104d7;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Page-about > section > .icon-list img {
+  height: 70px;
+}
+
+.Page-about > section > .icon-list.langs {
+  /* height: 70px; */
+  /* width: 55%; */
+  grid-area: ill;
+  border-bottom-right-radius: 0px;
+}
+
+.Page-about > section > .icon-list.techs {
+  /* float: right; */
+  grid-area: ilt;
+  margin-top: -3px;
+  border-top-left-radius: 0px;
+}
+
+.Page-about > section > .knawledge-desc {
+  grid-area: kd;
 }
