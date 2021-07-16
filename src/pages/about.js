@@ -14,8 +14,9 @@ function AboutPage() {
       <h1>$ whoami</h1>
 
       <article className="Page-about">
-        <h2>Nice to meet you! 👋</h2>
-        <p>My name is John Dust. I am a Software Engineer who's passion to code might even be greater than my passion for coffee.</p>
+        <img className="my-face" alt="My face" src={require(`./../assets/my_face.jpg`).default}/>
+        <h2>Hi! I'm John Dust,</h2>
+        <p className="intro">A software engineer with a passion for <em>coffee</em> ☕️ <br/>that is experienced in <em>Full Stack Web Development</em>, <em>Game Design</em> and <em>Object Oriented Programming</em>.</p>
 
         <div>
           <h4>Languages I am well versed in</h4>
