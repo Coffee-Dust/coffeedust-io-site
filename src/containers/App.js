@@ -8,6 +8,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <img src={logo} className="App-logo-static" alt="logo" />
         <NavMenu />
         <main className="App-content-container blur-backdrop">
           <Routes />
