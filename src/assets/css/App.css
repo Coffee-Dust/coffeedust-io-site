@@ -25,6 +25,14 @@
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 
+.App-logo-static {
+  display: none;
+}
+
+.Mobile-open-menu {
+  display: none;
+}
+
 .App-nav-menu > nav {
   grid-area: n;
 }
