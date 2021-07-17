@@ -13,10 +13,30 @@
     backdrop-filter: blur(7px);
     box-shadow: 5px 13px 15px 8px #000000da;
     border-radius: 0px 15px 15px 0px;
+    animation: closeMenu 500ms ease-in-out;
   }
   
   .App-nav-menu.opened {
     transform: translateX(0);
+    animation: openMenu 500ms ease-in-out;
+  }
+
+  @keyframes openMenu {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes closeMenu {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
   }
 
   .App-nav-menu.opened > nav {
