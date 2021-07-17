@@ -18,6 +18,7 @@ function NavMenu(props) {
   return (
     <div className="App-nav-menu opened">
       <img src={logo} className="App-logo" alt="logo" />
+      <div className="Mobile-open-menu" onClick={props.toggleMenu}><span>menu</span></div>
       <nav ref={navRef}>
         <NavLink to="/about">about me</NavLink>
         <NavLink to="/blog">blog</NavLink>
