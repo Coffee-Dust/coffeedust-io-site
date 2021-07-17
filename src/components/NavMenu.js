@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom"
 import logo from '../assets/logo.svg';
 import SocialLinks from './SocialLinks';
 
-function NavMenu() {
+function NavMenu(props) {
 
   const navRef = React.useRef()
   const calcScaleFactor = element=> {
