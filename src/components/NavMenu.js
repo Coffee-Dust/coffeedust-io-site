@@ -16,7 +16,7 @@ function NavMenu() {
   },[])
 
   return (
-    <div className="App-nav-menu">
+    <div className="App-nav-menu opened">
       <img src={logo} className="App-logo" alt="logo" />
       <nav ref={navRef}>
         <NavLink to="/about">about me</NavLink>
