@@ -40,7 +40,6 @@
   }
 
   .App-nav-menu.opened > nav {
-    opacity: 1;
     display: block;
   }
 
@@ -76,10 +75,6 @@
     max-width: 120px;
     width: 75%;
     filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
-  }
-
-  .App-nav-menu > nav {
-    opacity: 0;
   }
 
   .App-content-container {
