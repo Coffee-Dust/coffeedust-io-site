@@ -1,0 +1,69 @@
+@media only screen and (max-width: 800px) {
+  .App-nav-menu {
+    position: absolute;
+    z-index: 99;
+    width: 50%;
+    height: 100vh;
+    transform: translateX(-100%);
+    top: 0px;
+    left: 0px;
+    background-color: rgba(250, 235, 215, 0.863);
+    -webkit-backdrop-filter: blur(7px);
+    -moz-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    box-shadow: 5px 13px 15px 8px #000000da;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  .App-nav-menu.opened {
+    transform: translateX(0);
+  }
+
+  .App-nav-menu.opened > nav {
+    opacity: 1;
+    display: block;
+  }
+
+  .App-nav-menu > nav {
+    display: none;
+  }
+
+  .Mobile-open-menu {
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 100%;
+    width: 25px;
+    height: 200px;
+    padding-left: 4px;
+    border: 1px solid antiquewhite;
+    background: #2c1104;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 50px;
+    box-shadow: 8px 10px 10px 2px #000000da;
+  }
+
+  .Mobile-open-menu > span {
+    word-wrap: break-word;
+    color: antiquewhite;
+  }
+
+  .App-logo-static {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 120px;
+    width: 75%;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  }
+
+  .App-nav-menu > nav {
+    opacity: 0;
+  }
+
+  .App-content-container {
+    width: 90%;
+    margin-left: 13%;
+  }
+}
