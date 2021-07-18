@@ -42,7 +42,11 @@ const projectInfo = {
     "name": "My Coffee Table - My Javascript/Rails Project",
     "repo": "https://github.com/Coffee-Dust/My-Coffee-Table",
     "demo": false,
-    "desc": "",
+    "desc": (
+    <article>
+
+    </article>
+    ),
     "langs": [],
     "techs": []
     },
