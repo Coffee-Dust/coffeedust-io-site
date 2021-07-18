@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Project from '../components/Project';
 import '../assets/css/Projects.css'
-import projectInfo from '../data/project_info.json'
+import projectInfo from '../data/project_info'
 import ProjectDetails from '../components/ProjectDetails';
 
 class ProjectsContainer extends Component {
