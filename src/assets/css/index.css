@@ -11,7 +11,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Source Code Pro', monospace;
-  line-height: 2.4vh;
+  line-height: 1em;
   font-stretch: condensed;
 }
 
