@@ -7,9 +7,6 @@ function ProjectDetails(props) {
 
   }
 
-  const goToRepo = event=> {
-
-  }
 
   return (
     <div className="Project-details">
@@ -23,7 +20,7 @@ function ProjectDetails(props) {
       <h2>{props.name}</h2>
       <div className="links">
         {
-          (props.repo) ? <button className="repo" onClick={goToRepo}> <img src={gitHubLogo} /> github repo</button> : null
+          (props.repo) ? <a className="repo" href={props.repo} target="_blank"><button> <img src={gitHubLogo} /> github repo</button></a> : null
         }
         {
           (props.demo) ? <button className="demo" onClick={startDemo}>Launch Interactive Demo</button> : null
