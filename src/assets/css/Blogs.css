@@ -122,5 +122,22 @@
 @media only screen and (max-width: 875px) {
   .Blogs-container {
     grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Blogs-thumbnail {
+    /* width: 85%;
+    height: 100%; */
+    /* width: 100%; */
+    /* max-width: 200px;
+    max-height: 175px; */
+    width: 85%;
+    height: 100%;
+    max-width: unset;
+    max-height: unset;
+    min-width: unset;
+    min-height: unset;
   }
 }
