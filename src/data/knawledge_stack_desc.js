@@ -1,5 +1,6 @@
 import React from 'react'
 const stackKnawledgeDesc = {
+
   "ruby": (
   <article>
     <h2>Ruby</h2>
@@ -19,26 +20,31 @@ const stackKnawledgeDesc = {
     </div>
   </article>
   ),
+
   "js": (
   <article>
     <h4>Dumpster fire</h4>
   </article>
   ),
+
   "swift": (
   <article>
 
   </article>
   ),
+
   "rails": (
   <article>
 
   </article>
   ),
+
   "react": (
   <article>
 
   </article>
   ),
+
   "html": (
   <article>
 
