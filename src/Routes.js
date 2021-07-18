@@ -16,7 +16,8 @@ function Routes() {
       <Route path="/blog">
         <BlogPage />
       </Route>
-      <Route path="/projects">
+      <Route exact path="/projects/:slug" component={ProjectsPage} />
+      <Route exact path="/projects">
         <ProjectsPage />
       </Route>
     </Switch>
