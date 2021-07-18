@@ -131,6 +131,19 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .Project-app-div {
+
+    width: 90%;
+    height: 95%;
+    max-width: unset;
+    max-height: unset;
+    min-width: unset;
+    min-height: unset;
+    /* height: 90%; */
+  }
+}
+
 .Project-app-div > .icon-shadow {
   position: absolute;
   z-index: 1;
