@@ -91,6 +91,12 @@
   animation-delay: calc(4 * 200ms);
 }
 
+.Page-about > section > .knawledge-desc {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(5 * 200ms);
+}
+
 .Page-about > section > .icon-list img {
   height: 70px;
   transform: scale(1);
