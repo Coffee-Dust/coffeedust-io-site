@@ -7,6 +7,9 @@ import ProjectsPage from './pages/projects'
 function Routes() {
   return (
     <Switch>
+      <Route exact path="/">
+          <Redirect to="/about" />
+      </Route>
       <Route path="/about">
         <AboutPage />
       </Route>
