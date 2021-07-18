@@ -24,3 +24,10 @@ code {
   box-sizing: border-box;
   line-height: 1.3em;
 }
+
+@media only screen and (max-width: 400px) {
+  h1, h2, h3, h4 {
+    line-height: 1em;
+    font-stretch: unset;
+  }
+}
