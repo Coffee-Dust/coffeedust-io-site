@@ -134,6 +134,10 @@
   animation-direction: alternate;
 }
 
+.Page-about-desc-project-icons > a > img {
+  width: 200px;
+}
+
 /* Animations */
 
 @keyframes animateActiveIcon {
