@@ -97,7 +97,7 @@
   white-space: pre-wrap;
 }
 
-.Project-details > .links > button {
+.Project-details > .links > a > button {
   background: antiquewhite;
   border-radius: 10px;
   color: #250a01e1;
@@ -107,7 +107,7 @@
   text-align: center;
 }
 
-.Project-details > .links > .repo > img {
+.Project-details > .links > .repo > button > img {
   height: 25px;
 }
 
