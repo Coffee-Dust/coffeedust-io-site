@@ -23,7 +23,15 @@ const stackKnawledgeDesc = {
 
   "js": (
   <article>
-    <h4>Dumpster fire</h4>
+    <h2>Javascript</h2>
+    <p>
+      
+    </p>
+    <div className="Page-about-desc-project-icons">
+      <h4>Projects that used this language.</h4>
+      {/* <a href="/projects/inventory_manager"><img src={require(`./../assets/project_icons/inventory_manager_icon.png`).default} alt="" /></a> */}
+      {/* <a href="/projects/local_coffeeshop"><img src={require(`./../assets/project_icons/local_coffeeshop_icon.png`).default} alt="" /></a> */}
+    </div>
   </article>
   ),
 
