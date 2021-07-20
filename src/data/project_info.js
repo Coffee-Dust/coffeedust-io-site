@@ -67,7 +67,17 @@ const projectInfo = {
     "demo": false,
     "desc": (
     <article>
-
+      This is possibly my favorite project and the one I am most proud of. I actually use it personally quite a lot to hold various embeded music videos and radio streams from Youtube.<br/>
+      It was actually built in pure ES6 Javascript in an object oriented fashion with a Ruby on Rails API server for data persistence.<br/>
+      <h4>The My Coffee Table app allows users to: </h4>
+      <ul>
+        <li>Create a virtual coffee tabletop</li>
+        <li>Create various elements and place them on that coffee table</li>
+        <li>Those elements can be Links, embeded content via iFrame, notes, pictures and more.</li>
+        <li>Save and play youtube videos right on your coffee table</li>
+        <li>Move those elements by dragging them around the table</li>
+        <li>Customize those elements with preset styles and inline CSS</li>
+      </ul>
     </article>
     ),
     "langs": [],
