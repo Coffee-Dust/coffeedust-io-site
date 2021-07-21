@@ -88,7 +88,20 @@ const projectInfo = {
     "name": "Coffee Beans: Social - My React/Rails Project",
     "repo": "https://github.com/Coffee-Dust/React-Coffee-Beans",
     "demo": false,
-    "desc": "",
+    "desc": (
+      <article>
+        Coffee-Beans is basically a Twitter clone, with the original idea being being, only allowing posts about coffee
+        This project idea was initially my Rails portfolio project(the repo can be found <a href="https://github.com/Coffee-Dust/Coffee-Beans" target="_blank" rel="noreferrer">here</a>), but I later decided to make a fork of this domain model and use it for my React portfolio project.<br/>
+        On the rails side of things, I had to turn the domain model of the database into a more API friendly version. For the front end, as my original rails project was built using just ERB(embeded ruby) files, and no Javascript. I had to start from scratch on that front. <br/>
+        <h4>Some Highlights</h4>
+        <ul>
+          <li>Post "beans" and view posts from different users</li>
+          <li>React to those posts with multiple "reaction" options</li>
+          <li>Comment on posts and react to them just like you can with posts</li>
+          <li>Only post about coffee or get your account deleted 😬</li>
+        </ul>
+      </article>
+    ),
     "langs": [],
     "techs": []
     }
