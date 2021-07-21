@@ -61,7 +61,13 @@ const stackKnawledgeDesc = {
 
   "html": (
   <article>
-
+    <h2>HTML 5 and CSS 3</h2>
+    <div className="Page-about-desc-project-icons">
+      <h4>Projects that used this tech.</h4>
+      <a href="/projects/local_coffeeshop"><img src={require(`./../assets/project_icons/local_coffeeshop_icon.png`).default} alt="" /></a>
+      <a href="/projects/my_coffee_table"><img src={require(`./../assets/project_icons/my_coffee_table_icon.png`).default} alt="" /></a>
+      <a href="/projects/coffee_beans"><img src={require(`./../assets/project_icons/coffee_beans_icon.png`).default} alt="" /></a>
+    </div>
   </article>
   )
 }
