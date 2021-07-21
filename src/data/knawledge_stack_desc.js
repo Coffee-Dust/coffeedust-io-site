@@ -49,7 +49,12 @@ const stackKnawledgeDesc = {
 
   "rails": (
   <article>
-
+    <h2>Ruby on Rails</h2>
+    <div className="Page-about-desc-project-icons">
+      <h4>Projects that used this framework.</h4>
+      <a href="/projects/coffee_beans"><img src={require(`./../assets/project_icons/coffee_beans_icon.png`).default} alt="" /></a>
+      <a href="/projects/my_coffee_table"><img src={require(`./../assets/project_icons/my_coffee_table_icon.png`).default} alt="" /></a>
+    </div>
   </article>
   ),
 
