@@ -25,12 +25,18 @@ const stackKnawledgeDesc = {
   <article>
     <h2>Javascript</h2>
     <p>
-      
+      This language was very different from the ones I had previously learned, but I quickly got the hang of it.<br/>
+      The features that I actually liked was the way functions and methods are considered "first class citizens".<br/>
+      I really enjoyed this functionality and quickly got used to using callbacks and where to use them.<br/>
+      Despite the prototype inheritence model which was quite different from things I previously had experience with, I was able to learn the ends and outs of Object Oriented programming in JS and how it was different than other languages.<br />
+      Although the history of this language is kind of a mess, the ES6 updates to it have made it really nice to use and going back to languages like ruby were a bit strange since I didn't have the ability to pass in methods like any other argument.
+    </p>
+    <p>
+      After my first all Javascript project, I really learned how to deal with it's quirkiness, and make use of it's features.
     </p>
     <div className="Page-about-desc-project-icons">
       <h4>Projects that used this language.</h4>
-      {/* <a href="/projects/inventory_manager"><img src={require(`./../assets/project_icons/inventory_manager_icon.png`).default} alt="" /></a> */}
-      {/* <a href="/projects/local_coffeeshop"><img src={require(`./../assets/project_icons/local_coffeeshop_icon.png`).default} alt="" /></a> */}
+      <a href="/projects/my_coffee_table"><img src={require(`./../assets/project_icons/my_coffee_table_icon.png`).default} alt="" /></a>
     </div>
   </article>
   ),
