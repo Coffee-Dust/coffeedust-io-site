@@ -11,8 +11,22 @@ const projectInfo = {
     <article>
       This was my first official programming endeavor. After reading through a few books about Swift and watching some YouTube tutorials, I finally got a good enough feel for the the Apple Swift language and went to work designing this game!<br/>
       I designed all of the graphics and art, even the soundtrack. <br/>
-      It featured 1 game on the App Store version, Meteoroids.<br/>
-      This game was modeled after classic arcade space shooter games and it allowed the user to earn gold, use that gold to purchase power-ups and use those power-ups during the game.
+      It featured 1 playable game on released version, Meteoroids.<br/>
+      <h4>Highlights of the 8-bit Master</h4>
+      <ul>
+        <li>It featured an intuitive virtual game console interface</li>
+        <li>This interface included virtual buttons and plus pad used to interact with what is displayed on the screen</li>
+        <li>Allowed for multiple games to be loaded on there</li>
+        <li>It had a store that allowed users to purchase in-game currency or watch an ad to earn it</li>
+        (made $5 from in-app purchases during the time it was on the app store 😮)
+      </ul>
+      <h4>Meteoroids Features</h4>
+      This game was modeled after classic arcade space shooter games.
+      <ul>
+        <li>Tt allowed the user to earn gold by shooting asteroids in space</li>
+        <li>use that gold to purchase power-ups and use those power-ups during gameplay</li>
+        <li>Let users make various upgrades to their gameplay over time</li>
+      </ul>
     </article>
     ),
     "langs": ["Swift"],
