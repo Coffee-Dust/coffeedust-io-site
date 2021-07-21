@@ -43,7 +43,11 @@ const stackKnawledgeDesc = {
 
   "swift": (
   <article>
-
+    <h2>Swift</h2>
+    <div className="Page-about-desc-project-icons">
+      <h4>Projects that used this language.</h4>
+      <a href="/projects/8bit_master"><img src={require(`./../assets/project_icons/8bit_master_icon.png`).default} alt="" /></a>
+    </div>
   </article>
   ),
 
