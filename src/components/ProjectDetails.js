@@ -18,6 +18,7 @@ function ProjectDetails(props) {
 
   return (
     <div className="Project-details">
+      {(demoIsLoadingOnPort) ? <DemoLoadPopup port={demoIsLoadingOnPort} {...props} /> : null}
       <button className="close" 
       onClick={e=> {
         e.currentTarget.parentNode.classList.add("closing")
