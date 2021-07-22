@@ -1,5 +1,6 @@
 import React from 'react';
 import gitHubLogo from '../assets/GitHub-Logo.png';
+import DemoLoadPopup from './DemoLoadPopup';
 
 function ProjectDetails(props) {
   const demoServerURL = "http://localhost:9292"
