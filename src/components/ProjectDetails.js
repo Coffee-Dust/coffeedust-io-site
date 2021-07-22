@@ -4,7 +4,7 @@ import DemoLoadPopup from './DemoLoadPopup';
 import coffeeMachineSound from '../assets/coffee_machine.mp3'
 
 function ProjectDetails(props) {
-  const demoServerURL = "http://localhost:9292"
+  const demoServerURL = "http://demo.coffeedust.io"
 
   const [demoIsLoadingOnPort, setDemoIsLoadingOnPort] = React.useState(false);
 
