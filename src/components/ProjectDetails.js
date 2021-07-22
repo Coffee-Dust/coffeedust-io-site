@@ -8,6 +8,9 @@ function ProjectDetails(props) {
 
   const [demoIsLoadingOnPort, setDemoIsLoadingOnPort] = React.useState(false);
 
+  const [demoServerIsRunning, setDemoServerIsRunning] = React.useState(false);
+  fetch(demoServerURL).then(_=> setDemoServerIsRunning(true)).catch(error=> console.error(error))
+
   const startDemo = event=> {
     const brewSound = new Audio(coffeeMachineSound)
     brewSound.volume = 0.4
@@ -36,7 +39,7 @@ function ProjectDetails(props) {
           (props.repo) ? <a className="repo" href={props.repo} target="_blank" rel="noreferrer"><button> <img src={gitHubLogo} /> github repo</button></a> : null
         }
         {
-          (props.demo) ? <button className="demo" onClick={startDemo}>Launch Interactive Demo</button> : null
+          (props.demo && demoServerIsRunning) ? <button className="demo" onClick={startDemo}>Launch Interactive Demo</button> : null
         }
       </div>
       <p>{props.desc}</p>
