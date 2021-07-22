@@ -32,8 +32,8 @@ function ProjectDetails(props) {
       onClick={e=> {
         e.currentTarget.parentNode.classList.add("closing")
         setTimeout(_=> props.closeDetails(e), 500)
-      }}
-      >x</button>
+      }}>x</button>
+
       <img src={require(`./../assets/project_icons/${props.id}_icon.png`).default} alt="" />
       <h2>{props.name}</h2>
       <div className="links">
