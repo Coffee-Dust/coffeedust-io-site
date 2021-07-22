@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactComponent as CoffeeMachineSVG} from '../assets/coffeemachine.svg'
 
 
   const demoServerURL = `${url}:${port}`
