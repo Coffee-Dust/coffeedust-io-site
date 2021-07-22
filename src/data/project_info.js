@@ -78,7 +78,7 @@ const projectInfo = {
     "id": "my_coffee_table",
     "name": "My Coffee Table - My Javascript/Rails Project",
     "repo": "https://github.com/Coffee-Dust/My-Coffee-Table",
-    "demo": false,
+    "demo": true,
     "desc": (
     <article>
       This is possibly my favorite project and the one I am most proud of. I actually use it personally quite a lot to hold various embeded music videos and radio streams from Youtube.<br/>
@@ -101,7 +101,7 @@ const projectInfo = {
     "id": "coffee_beans",
     "name": "Coffee Beans: Social - My React/Rails Project",
     "repo": "https://github.com/Coffee-Dust/React-Coffee-Beans",
-    "demo": false,
+    "demo": true,
     "desc": (
       <article>
         Coffee-Beans is basically a Twitter clone, with the original idea being being, only allowing posts about coffee
