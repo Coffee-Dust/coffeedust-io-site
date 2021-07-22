@@ -1,6 +1,7 @@
 import React from 'react';
 import gitHubLogo from '../assets/GitHub-Logo.png';
 import DemoLoadPopup from './DemoLoadPopup';
+import coffeeMachineSound from '../assets/coffee_machine.mp3'
 
 function ProjectDetails(props) {
   const demoServerURL = "http://localhost:9292"
@@ -8,6 +9,9 @@ function ProjectDetails(props) {
   const [demoIsLoadingOnPort, setDemoIsLoadingOnPort] = React.useState(false);
 
   const startDemo = event=> {
+    const brewSound = new Audio(coffeeMachineSound)
+    brewSound.volume = 0.4
+    brewSound.play()
 
     fetch(demoServerURL + `?PROJECT_NAME=${props.id}`)
     .then(prom => (prom.status === 200) ? prom.json() : alert("UH OH! the demo server did not response in your favor!"))
