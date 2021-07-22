@@ -7,18 +7,15 @@ function DemoLoadPopup({port, url}) {
 
   const [isLoaded, setIsLoaded] = React.useState(false);
 
-  const checkInstanceIsActive = async (url, attempts)=> {
-      let error;
-      for (let i = 0; i < attempts; i++) {
-          try {
-              return await fetch(url);
-          } catch (err) {
-              error = err;
-          }
-      }
-      throw error;
-  };
-  checkInstanceIsActive(demoServerURL, 500).then(_=> setIsLoaded(true))
+  (async function checkInstanceIsLoaded() {
+    try {
+      await fetch(demoServerURL)
+      setIsLoaded(true)
+    } catch (error) {
+      console.log("Instance is not loaded yet! Trying again", error)
+      await checkInstanceIsLoaded()
+    }
+  })()
 
   return (
     <div className="Projects-demo-load-popup">
