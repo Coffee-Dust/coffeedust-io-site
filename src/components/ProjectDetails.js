@@ -2,9 +2,16 @@ import React from 'react';
 import gitHubLogo from '../assets/GitHub-Logo.png';
 
 function ProjectDetails(props) {
+  const demoServerURL = "http://localhost:9292"
+
+  const [demoIsLoadingOnPort, setDemoIsLoadingOnPort] = React.useState(false);
 
   const startDemo = event=> {
 
+    fetch(demoServerURL + `?PROJECT_NAME=${props.id}`)
+    .then(prom => (prom.status === 200) ? prom.json() : alert("UH OH! the demo server did not response in your favor!"))
+    .then(resp=> setDemoIsLoadingOnPort(resp.instancePort))
+    .catch(e=> alert("UH OH! the demo server does not appear to be on 😬", e))
   }
 
 
