@@ -155,3 +155,65 @@
   margin: auto;
   box-shadow: 7px 15px 15px 10px #000000da;
 }
+
+.Projects-demo-load-popup {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #000000da;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.Projects-demo-load-popup > h2 {
+  padding-top: 50px;
+  color: antiquewhite;
+}
+
+.Projects-demo-load-popup > a {
+  float: right;
+  cursor: pointer;
+}
+
+.Projects-demo-load-popup > a:disabled {
+  cursor: not-allowed;
+}
+
+.Projects-demo-load-popup > a > button {
+  background: antiquewhite;
+  border-radius: 10px;
+  color: #250a01e1;
+  font-family: 'Source-Code-Pro', monospace;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Projects-demo-load-popup > a > button:disabled {
+  filter: brightness(0.3);
+  cursor: not-allowed;
+}
+
+.Projects-demo-load-popup > svg {
+  width: 70%;
+  height: 70%;
+}
+
+.Projects-demo-load-popup > svg #CoffeeBrew {
+  animation: animateBrewIn 7s;
+  opacity: 1;
+}
+
+@keyframes animateBrewIn {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
