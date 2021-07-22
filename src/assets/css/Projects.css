@@ -176,18 +176,20 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background: #000000da;
+  /* background: #000000da; */
+  background: #fcf2e6b2;
   width: 100%;
   min-height: 100vh;
   padding: 10px;
-  -webkit-backdrop-filter: blur(5px);
-  -moz-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .Projects-demo-load-popup > h2 {
   padding-top: 50px;
-  color: antiquewhite;
+  /* color: antiquewhite; */
+  color: #250a01e1;
 }
 
 .Projects-demo-load-popup > a {
@@ -200,9 +202,11 @@
 }
 
 .Projects-demo-load-popup > a > button {
-  background: antiquewhite;
+  /* background: antiquewhite; */
+  background: #250a01e1;
   border-radius: 10px;
-  color: #250a01e1;
+  /* color: #250a01e1; */
+  color: antiquewhite;
   font-family: 'Source-Code-Pro', monospace;
   font-weight: 600;
   font-size: 0.8em;
