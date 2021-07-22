@@ -9,7 +9,7 @@ function ProjectDetails(props) {
   const [demoIsLoadingOnPort, setDemoIsLoadingOnPort] = React.useState(false);
 
   const [demoServerIsRunning, setDemoServerIsRunning] = React.useState(false);
-  fetch(demoServerURL).then(_=> setDemoServerIsRunning(true)).catch(error=> console.error(error))
+  fetch(demoServerURL).then(_=> setDemoServerIsRunning(true)).catch(_=> console.log("Guess the demo server is down 🤷‍♂️"))
 
   const startDemo = event=> {
     const brewSound = new Audio(coffeeMachineSound)
