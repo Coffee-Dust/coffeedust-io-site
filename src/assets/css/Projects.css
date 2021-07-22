@@ -97,18 +97,34 @@
   white-space: pre-wrap;
 }
 
-.Project-details > .links > a > button {
+.Project-details > .links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Project-details > .links button {
   background: antiquewhite;
   border-radius: 10px;
   color: #250a01e1;
   font-family: 'Source-Code-Pro', monospace;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.8em;
   text-align: center;
+  height: 30px;
+  padding: 1px 6px 1px 6px;
+}
+
+.Project-details > .links > button.demo {
+  margin-left: 10px;
+}
+
+.Project-details > .links > .repo > button > span {
+  vertical-align: middle;
 }
 
 .Project-details > .links > .repo > button > img {
-  height: 25px;
+  vertical-align: middle;
+  height: 100%;
 }
 
 @keyframes animate-closing {
