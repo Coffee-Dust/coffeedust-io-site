@@ -7,6 +7,19 @@ function DemoLoadPopup({port, url}) {
 
   const [isLoaded, setIsLoaded] = React.useState(false);
 
+  const checkInstanceIsActive = async (url, attempts)=> {
+      let error;
+      for (let i = 0; i < attempts; i++) {
+          try {
+              return await fetch(url);
+          } catch (err) {
+              error = err;
+          }
+      }
+      throw error;
+  };
+  checkInstanceIsActive(demoServerURL, 500).then(_=> setIsLoaded(true))
+
   return (
     <div className="Projects-demo-load-popup">
       <h2>Demo Instance Status: {(isLoaded) ? "Ready!" : "Brewing"}</h2>
