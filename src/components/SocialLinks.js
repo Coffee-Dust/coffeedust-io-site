@@ -1,12 +1,10 @@
 import React from 'react';
-import linkedInLogo from '../assets/LinkedIn-Logo.png'
-import gitHubLogo from '../assets/GitHub-Logo.png'
+import {ReactComponent as LinkTable} from '../assets/linkTable.svg'
 
 function SocialLinks() {
   return (
     <div className="App-social-links">
-      <a href="https://www.linkedin.com/in/coffeedust/" target="_blank" rel="noreferrer"><img src={linkedInLogo} alt="" /></a>
-      <a href="https://github.com/Coffee-Dust" target="_blank" rel="noreferrer"><img src={gitHubLogo} alt="" /></a>
+      <LinkTable className="Link-table" />
     </div>
   );
 }
