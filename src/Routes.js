@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import AboutPage from './pages/about';
 import BlogPage from './pages/blog';
 import ProjectsPage from './pages/projects'
+import ResumePage from './pages/resume';
 
 function Routes() {
   return (
