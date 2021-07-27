@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ResumePage(props) {
+function ResumePage() {
   return (
     <div className="Page-content">
       <h1>my resumé</h1>
