@@ -23,7 +23,7 @@ function NavMenu(props) {
         <NavLink to="/about">about me</NavLink>
         <NavLink to="/blog">blog</NavLink>
         <NavLink to="/projects">projects</NavLink>
-        <NavLink to="/resume">resume</NavLink>
+        <NavLink to="/resume">resumé</NavLink>
       </nav>
       <SocialLinks />
     </div>
