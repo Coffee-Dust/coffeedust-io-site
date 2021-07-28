@@ -2,11 +2,16 @@ import React from 'react';
 import '../assets/css/ResumePage.css'
 
 function ResumePage() {
-  
+  const resumeFileVersion = "4"
 
   return (
-    <div className="Page-content">
-      <h1>my resumé</h1>
+    <div className="Page-content Page-resume">
+
+      <h1>my resumé</h1> 
+      <a id="Download-resume" href={`/downloads/JohnDustResumev${resumeFileVersion}.pdf`} download="John Dust Resume"><button className="styled-button-light">
+        <img src={require("./../assets/downloadIcon.png").default} alt="" />
+        <span>download resume</span>
+      </button></a>
 
       <article className="resume-wrapper">
 
