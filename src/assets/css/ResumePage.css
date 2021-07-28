@@ -1,0 +1,25 @@
+.resume-wrapper {
+  padding: 15px 50px;
+}
+
+.resume-wrapper > h2 {
+  text-align: center;
+}
+
+.resume-wrapper > h2 + hr + p {
+  text-align: center;
+}
+.resume-wrapper > .split {
+  width: 100%;
+  display: inline-block;
+}
+.resume-wrapper > .split > span.desc {
+  float: left;
+}
+.resume-wrapper > .split > h4 {
+  float: left;
+  margin: 0px;
+}
+.resume-wrapper > .split > span {
+  float: right;
+}
