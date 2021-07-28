@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/css/ResumePage.css'
 
 function ResumePage() {
   return (
