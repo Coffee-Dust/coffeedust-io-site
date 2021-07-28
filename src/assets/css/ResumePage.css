@@ -1,5 +1,23 @@
+.Page-resume > h1 {
+  display: block;
+  float: left;
+}
+
+#Download-resume {
+  float: right;
+  margin-right: 3%;
+  margin-top: 15px;
+}
+#Download-resume > button > img {
+  width: 50px;
+}
+#Download-resume > button > span {
+  display: block;
+}
+
 .resume-wrapper {
-  padding: 15px 50px;
+  padding: 10px 50px;
+  float: left;
 }
 
 .resume-wrapper > h2 {
