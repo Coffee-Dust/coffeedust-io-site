@@ -159,3 +159,25 @@ button.close {
   color: antiquewhite;
   text-shadow: 4px 4px 4px #000000;
 }
+
+button.styled-button-dark {
+  background: #250a01e1;
+  border-radius: 10px;
+  /* color: #250a01e1; */
+  color: antiquewhite;
+  font-family: 'Source-Code-Pro', monospace;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-align: center;
+  cursor: pointer;
+}
+button.styled-button-light {
+  background: antiquewhite;
+  border-radius: 10px;
+  color: #250a01e1;
+  font-family: 'Source-Code-Pro', monospace;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-align: center;
+  cursor: pointer;
+}
