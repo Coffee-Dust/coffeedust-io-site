@@ -17,7 +17,14 @@ function AboutPage() {
       <article className="Page-about">
         <img className="my-face" alt="My face" src={require(`./../assets/my_face.jpg`).default}/>
         <h2>Hi! <br/><br/> I'm John Dust,</h2>
-        <p className="intro">A software engineer with a passion for <em>coffee</em> ☕️ <br/>that is experienced in <em>Full Stack Web Development</em>, <em>Game Design</em> and <em>Object Oriented Programming</em>.</p>
+        <p className="intro">
+          A software engineer with a passion for <em>coffee</em> ☕️ <br />
+          that is experienced in <em>Full Stack Web Development</em>, <em>Game Design and Object Oriented Programming</em>, and a graduate from <em>Flatiron School</em>.
+          <figure>
+            <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
+            <figcaption>My Certificate of Completion from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
+          </figure>
+        </p>
 
         <section className="knawledge background-blur">
           <h2>My knowledge stack</h2>
