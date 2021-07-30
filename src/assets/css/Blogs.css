@@ -10,6 +10,26 @@
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
 }
+#mediumLinkButton {
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 30px;
+}
+#mediumLinkButton > button > img {
+  display: block;
+  height: 20px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 450px) {
+  #mediumLinkButton {
+    margin: 10px;
+    margin-left: 30px;
+    position: relative;
+    top: unset;
+    right: unset;
+  }
+}
 
 @keyframes fadeIn {
   from{
