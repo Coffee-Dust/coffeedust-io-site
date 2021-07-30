@@ -20,10 +20,10 @@ function NavMenu(props) {
       <img src={logo} className="App-logo" alt="logo" />
       <div className="Mobile-open-menu" onClick={props.toggleMenu}><span>menu</span></div>
       <nav ref={navRef}>
-        <NavLink to="/about">about me</NavLink>
-        <NavLink to="/blog">blog</NavLink>
-        <NavLink to="/projects">projects</NavLink>
-        <NavLink to="/resume">resumé</NavLink>
+        <NavLink to="/about" onClick={props.toggleMenu}>about me</NavLink>
+        <NavLink to="/blog" onClick={props.toggleMenu}>blog</NavLink>
+        <NavLink to="/projects" onClick={props.toggleMenu}>projects</NavLink>
+        <NavLink to="/resume" onClick={props.toggleMenu}>resumé</NavLink>
       </nav>
       <SocialLinks />
     </div>
