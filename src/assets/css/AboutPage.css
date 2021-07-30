@@ -51,6 +51,10 @@
   animation-delay: calc(2 * 200ms);
 }
 
+.Page-about > p.intro > ul > li {
+  margin-bottom: 10px;
+}
+
 .Page-about > #diploma > figure {
   margin: 0px;
   padding: 10px;
