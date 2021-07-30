@@ -7,6 +7,10 @@
   float: right;
   margin-right: 3%;
   margin-top: 15px;
+
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(0.5 * 200ms);
 }
 #Download-resume > button > img {
   width: 50px;
@@ -20,24 +24,79 @@
   float: left;
 }
 
-.resume-wrapper > h2 {
+.resume-wrapper h2 {
   text-align: center;
+  margin-top: 40px;
 }
 
-.resume-wrapper > h2 + hr + p {
+.resume-wrapper h2 + hr + p {
   text-align: center;
 }
-.resume-wrapper > .split {
+.resume-wrapper .split {
   width: 100%;
   display: inline-block;
 }
-.resume-wrapper > .split > span.desc {
+.resume-wrapper .split > span.desc {
   float: left;
 }
-.resume-wrapper > .split > h4 {
+.resume-wrapper .split > h4 {
   float: left;
   margin: 0px;
 }
-.resume-wrapper > .split > span {
+.resume-wrapper .split > span {
   float: right;
+}
+
+.resume-wrapper > h1 {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(1 * 200ms);
+}
+
+.resume-wrapper > #contact {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(2 * 200ms);
+}
+
+.resume-wrapper > #intro {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(3 * 200ms);
+}
+
+.resume-wrapper > #skills {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(4 * 200ms);
+}
+
+.resume-wrapper > #projects {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(5 * 200ms);
+}
+
+.resume-wrapper > #exp {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(6 * 200ms);
+}
+
+.resume-wrapper > #knawledge {
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(7 * 200ms);
+}
+
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
 }
