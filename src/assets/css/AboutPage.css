@@ -51,7 +51,7 @@
   animation-delay: calc(2 * 200ms);
 }
 
-.Page-about > #diploma {
+.Page-about > #diploma > figure {
   margin: 0px;
   padding: 10px;
   margin-left: 20px;
@@ -62,18 +62,18 @@
   grid-area: d;
   transform: rotate(5deg);
 }
-.Page-about > #diploma > img {
+.Page-about > #diploma > figure > img {
   width: 100%;
   display: block;
   box-shadow: inset 5px 5px 10px 10px #3b3b3be7;
 }
-.Page-about > #diploma > figcaption {
+.Page-about > #diploma > figure > figcaption {
   margin-top: 5px;
   font-size: 0.8em;
   text-align: center;
   color: antiquewhite;
 }
-.Page-about > #diploma > figcaption > a {
+.Page-about > #diploma > figure > figcaption > a {
   color: antiquewhite;
 }
 
