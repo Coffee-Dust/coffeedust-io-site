@@ -197,9 +197,10 @@
 @media only screen and (max-width: 500px) {
   .Page-about {
     grid-template-areas: 
-    'p . .'
+    'p p .'
     'ih2 ih2 ih2'
     'i i i'
+    'd d d'
     'sk sk sk'
     'sk sk sk';
   }
