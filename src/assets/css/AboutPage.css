@@ -56,17 +56,16 @@
 }
 
 .Page-about > #diploma {
+  grid-area: d;
   align-self: center;
 }
 .Page-about > #diploma > figure {
   margin: 0px;
   padding: 10px;
-  margin-left: 20px;
   background: #2c1104d7;
   border: solid 3px #2c1104;
   /* border-radius: 10px; */
   box-shadow: 3px 3px 10px 2px #000000e7;
-  grid-area: d;
   transform: rotate(5deg);
 }
 .Page-about > #diploma > figure > img {
