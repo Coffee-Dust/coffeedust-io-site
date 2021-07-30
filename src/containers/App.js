@@ -10,7 +10,7 @@ function App() {
 
   const toggleMenu = event=> {
     if (event.currentTarget.parentNode.classList.contains("App-nav-menu")) {
-      event.currentTarget.parentNode.classList.toggle("opened")
+      document.querySelector(".App-nav-menu").classList.toggle("opened")
     } else {
       document.querySelector(".App-nav-menu").classList.remove("opened")
     }
