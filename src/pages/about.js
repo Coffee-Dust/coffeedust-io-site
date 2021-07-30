@@ -20,11 +20,12 @@ function AboutPage() {
         <p className="intro">
           A software engineer with a passion for <em>coffee</em> ☕️ <br />
           that is experienced in <em>Full Stack Web Development</em>, <em>Game Design and Object Oriented Programming</em>, and a graduate from <em>Flatiron School</em>.
-          <figure>
-            <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
-            <figcaption>My Certificate of Completion from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
-          </figure>
         </p>
+
+        <figure id="diploma">
+          <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
+          <figcaption>My Certificate of Completion from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
+        </figure>
 
         <section className="knawledge background-blur">
           <h2>My knowledge stack</h2>
