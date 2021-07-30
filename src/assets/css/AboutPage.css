@@ -55,6 +55,9 @@
   margin-bottom: 10px;
 }
 
+.Page-about > #diploma {
+  align-self: center;
+}
 .Page-about > #diploma > figure {
   margin: 0px;
   padding: 10px;
