@@ -8,7 +8,8 @@
   display: grid;
   grid-template-areas: 
   'p ih2 ih2'
-  'p i i'
+  'p ih2 ih2'
+  'i i d'
   'sk sk sk'
   'sk sk sk';
 }
@@ -43,7 +44,6 @@
 
 .Page-about > p.intro {
   grid-area: i;
-  padding-left: 15px;
   font-size: 1.1em;
 
   animation: fadeIn 700ms ease-out;
@@ -51,29 +51,29 @@
   animation-delay: calc(2 * 200ms);
 }
 
-.Page-about > p.intro > figure {
+.Page-about > #diploma {
   margin: 0px;
-  margin-top: 20px;
-  float: right;
-  width: 65%;
-  background: #2c1104d7;
   padding: 10px;
+  margin-left: 20px;
+  background: #2c1104d7;
   border: solid 3px #2c1104;
   /* border-radius: 10px; */
   box-shadow: 3px 3px 10px 2px #000000e7;
+  grid-area: d;
+  transform: rotate(5deg);
 }
-.Page-about > p.intro > figure > img {
+.Page-about > #diploma > img {
   width: 100%;
   display: block;
   box-shadow: inset 5px 5px 10px 10px #3b3b3be7;
 }
-.Page-about > p.intro > figure > figcaption {
+.Page-about > #diploma > figcaption {
   margin-top: 5px;
   font-size: 0.8em;
   text-align: center;
   color: antiquewhite;
 }
-.Page-about > p.intro > figure > figcaption > a {
+.Page-about > #diploma > figcaption > a {
   color: antiquewhite;
 }
 
