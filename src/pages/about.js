@@ -30,10 +30,12 @@ function AboutPage() {
           </ul>
         </p>
 
-        <figure id="diploma">
-          <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
-          <figcaption>My Certificate of Completion from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
-        </figure>
+        <div id="diploma">
+          <figure>
+            <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
+            <figcaption>My Certificate of Completion from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
+          </figure>
+        </div>
 
         <section className="knawledge background-blur">
           <h2>My knowledge stack</h2>
