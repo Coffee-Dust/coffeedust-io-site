@@ -25,6 +25,8 @@ class ProjectsContainer extends Component {
   }
 
   toggleProjectDetails = (event)=> {
+    const appContainer = document.querySelector(".App-content-container")
+
     if (this.state.opened) {
       this.setState(s => ({ ...s, opened: false }))
 
@@ -38,6 +40,7 @@ class ProjectsContainer extends Component {
     } else {
       this.setState(s => ({ ...s, opened: event.target.parentNode.id}))
       window.history.pushState({openedFromLocalPage: true}, null, `projects/${projectInfo.projects[event.target.parentNode.id].id}`)
+      appContainer.scrollTo({top: 0})
     }
     event.target.parentNode.classList.toggle("opened")
   }
