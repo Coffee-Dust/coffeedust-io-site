@@ -30,7 +30,8 @@ const projectInfo = {
     </article>
     ),
     "langs": ["Swift"],
-    "techs": ["Spritekit"]
+    "techs": ["Spritekit"],
+    "screenshotCaptions": ["Playing the meteoroids game.", "Home menu screen on full release v1.0", "Upgrade your abilities screen.", "Purchasing 'Very Strong Mints!' on the power-ups store.", "Screenshot of indev version 2.0"]
     },
     "inventory_manager": {
     "id": "inventory_manager",
