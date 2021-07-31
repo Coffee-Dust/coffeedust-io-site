@@ -3,7 +3,7 @@ import React from 'react';
 function Project(props) {
 
   return (
-    <div id={props.idx} className="Project-app-div"
+    <div id={props.id} className="Project-app-div"
     style={{"--animation-order": `${props.animationPos}`}}
     onClick={props.open}
     >
