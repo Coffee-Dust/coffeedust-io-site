@@ -17,8 +17,8 @@ function ResumePage() {
 
         <h1>John Dust</h1>
         <section id="contact">
-          Knoxville, TN & Willing to relocate | 865-567-5032 | coffeedust.io@gmail.com <br/>
-          Personal Website: www.coffeedust.io | GitHub | LinkedIn<br/>
+          Knoxville, TN & Willing to relocate | <a href="tel:+8655675032">865-567-5032</a> | <a href="mailto:coffeedust.io@gmail.com">coffeedust.io@gmail.com</a> <br/>
+          Personal Website: www.coffeedust.io | <a href="https://github.com/Coffee-Dust">GitHub</a> | <a href="https://www.linkedin.com/in/coffeedust/">LinkedIn</a> <br/>
         </section>
 
         <section id="intro">
@@ -37,7 +37,7 @@ function ResumePage() {
           <h2>TECHNICAL PROJECTS</h2>
           <hr/>
 
-          <h4>Coffee-Beans Social Media - <a href="">Github</a> | <a href="">Demo</a></h4>
+          <h4>Coffee-Beans Social Media - <a href="https://github.com/Coffee-Dust/React-Coffee-Beans">Github</a> | <a href="https://coffeedust.io/projects/coffee_beans">Demo</a></h4>
           <p>A twitter clone where tweets are coffee beans. Users can share pictures, stories, comment on posts and react to both comments and posts alike.</p>
           <ul>
             <li>Built frontend in the React framework with Redux state management pattern.</li>
@@ -46,7 +46,7 @@ function ResumePage() {
             persist user submitted media.</li>
           </ul>
 
-          <h4>My Coffee Table - <a href="">Github</a> | <a href="">Demo</a></h4>
+          <h4>My Coffee Table - <a href="https://github.com/Coffee-Dust/My-Coffee-Table">Github</a> | <a href="https://coffeedust.io/projects/my_coffee_table">Demo</a></h4>
           <p>A single page web application that gives users a space (coffee table) to add, move around and customize pictures, weblinks, text, notes etc.</p>
           <ul>
             <li>Coded the frontend in vanilla ES6 Javascript in an Object Oriented JS paradigm for clear and semantic code organization.</li>
@@ -54,7 +54,7 @@ function ResumePage() {
             <li>Modeled out the relational database schema with polymorphic models to reduce code repetition.</li>
           </ul>
 
-          <h4>Inventory Manager - <a href="">Github</a> | <a href="">Demo</a></h4>
+          <h4>Inventory Manager - <a href="https://github.com/Coffee-Dust/Inventory-Manager">Github</a> | <a href="https://coffeedust.io/projects/inventory_manager">Demo</a></h4>
           <p>Command line interface app that allows you to view low inventory, add inventory, keep track of orders and much more.</p>
           <ul>
             <li>Engineered in vanilla Ruby without any frameworks, SQL or ORM’s but instead organizes and saves data in a single JSON file then parses that data into ruby class instances.</li>
