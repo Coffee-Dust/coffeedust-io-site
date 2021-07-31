@@ -13,14 +13,15 @@ class BlogsContainer extends Component {
   }
 
   openPost = (event)=> {
+    const appContainer = document.querySelector(".App-content-container")
     const data = this.state.postData[event.currentTarget.id]
-    const scrollPos = this.refs.blogsContainer.scrollTop
-    this.refs.blogsContainer.scrollTop = 0
-    this.setState(s=> ({...s, openedPostData: data, prevScrollPos: scrollPos}))
+    const scrollPos = appContainer.scrollTop
+    this.setState(s=> ({...s, openedPostData: data, prevScrollPos: scrollPos}), _=> appContainer.scrollTo({top: 0}))
   }
 
   closePost = event=> {
-    this.refs.blogsContainer.scrollTop = this.state.prevScrollPos
+    const appContainer = document.querySelector(".App-content-container")
+    appContainer.scrollTo({top: this.state.prevScrollPos})
     event.currentTarget.parentNode.classList.add("animate-close")
     setTimeout(_ => this.setState(s => ({ ...s, openedPostData: false })), 500)
   }
@@ -35,7 +36,7 @@ class BlogsContainer extends Component {
 
   render() {
     return (
-      <div className="Blogs-container" ref="blogsContainer">
+      <div className="Blogs-container">
         {
         (this.state.openedPostData) ?
           <BlogPost {...this.state.openedPostData} closePost={this.closePost}/>
