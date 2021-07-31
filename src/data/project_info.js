@@ -1,8 +1,8 @@
 import React from 'react'
 
 const projectInfo = {
-  "projects": [
-    {
+  "projects": {
+    "8bit_master": {
     "id": "8bit_master",
     "name": "The 8-bit Master",
     "repo": false,
@@ -32,7 +32,7 @@ const projectInfo = {
     "langs": ["Swift"],
     "techs": ["Spritekit"]
     },
-    {
+    "inventory_manager": {
     "id": "inventory_manager",
     "name": "Inventory Manager - My Ruby Project",
     "repo": "https://github.com/Coffee-Dust/Inventory-Manager",
@@ -53,7 +53,7 @@ const projectInfo = {
     "langs": ["Ruby"],
     "techs": ["Nokogiri Gem"]
     },
-    {
+    "local_coffeeshop": {
     "id": "local_coffeeshop",
     "name": "The Local Coffeeshop - My Sinatra Project",
     "repo": "https://github.com/Coffee-Dust/the-local-coffeeshop",
@@ -74,7 +74,7 @@ const projectInfo = {
     "techs": ["Sinatra", "ActiveRecord", "SQL", "REST"]
     },
 
-    {
+    "my_coffee_table": {
     "id": "my_coffee_table",
     "name": "My Coffee Table - My Javascript/Rails Project",
     "repo": "https://github.com/Coffee-Dust/My-Coffee-Table",
@@ -97,7 +97,7 @@ const projectInfo = {
     "langs": [],
     "techs": []
     },
-    {
+    "coffee_beans": {
     "id": "coffee_beans",
     "name": "Coffee Beans: Social - My React/Rails Project",
     "repo": "https://github.com/Coffee-Dust/React-Coffee-Beans",
@@ -119,7 +119,7 @@ const projectInfo = {
     "langs": [],
     "techs": []
     }
-  ]
+  }
 }
 
 export default projectInfo
