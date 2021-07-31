@@ -45,8 +45,23 @@ function ProjectDetails(props) {
         }
       </div>
       <p>{props.desc}</p>
-
-      <div className="screenshots"></div>
+      
+      {(props.screenshotCaptions) ? 
+        <section id="screenshots">
+          <h2>Screen-shots</h2>
+          <h4><em>(scrollable 👉)</em></h4>
+          <div className="screenshots-container">
+            {props.screenshotCaptions.map((caption, idx)=> (
+              <figure>
+                <img src={require(`./../assets/project_screenshots/${props.id}/${idx}.PNG`).default} alt={caption} />
+                <figcaption>{caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      :
+        null
+      }
     </div>
   );
 }
