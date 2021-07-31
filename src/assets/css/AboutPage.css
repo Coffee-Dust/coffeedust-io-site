@@ -58,6 +58,10 @@
 .Page-about > #diploma {
   grid-area: d;
   align-self: center;
+
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(2.3 * 200ms);
 }
 .Page-about > #diploma > figure {
   margin: 0px;
