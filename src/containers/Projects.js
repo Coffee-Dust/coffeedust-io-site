@@ -17,10 +17,8 @@ class ProjectsContainer extends Component {
   }
 
   displayProjectFromSlug = _=> {
-    console.log(this.props)
-    const projectInfoIndex = projectInfo.projects.findIndex(p=> p.id === this.props.match.params.slug)
-    if (this.props.match.params.slug && projectInfoIndex) {
-      this.setState(s => ({ ...s, opened: projectInfoIndex}))
+    if (projectInfo.projects[this.props.match.params.slug]) {
+      this.setState(s => ({ ...s, opened: this.props.match.params.slug}))
     }
   }
 
@@ -37,10 +35,13 @@ class ProjectsContainer extends Component {
         // It was visited from direct url, so no history.
         window.location = "/projects"
       }
+
     } else {
       this.setState(s => ({ ...s, opened: event.target.parentNode.id}))
-      window.history.pushState({openedFromLocalPage: true}, null, `projects/${projectInfo.projects[event.target.parentNode.id].id}`)
+      
+      window.history.pushState({openedFromLocalPage: true}, null, `projects/${event.target.parentNode.id}`)
       appContainer.scrollTo({top: 0})
+
     }
     event.target.parentNode.classList.toggle("opened")
   }
@@ -54,7 +55,7 @@ class ProjectsContainer extends Component {
           :
           null
         }
-        {projectInfo.projects.map((data, idx, a)=> <Project idx={idx} key={data.id} {...data} animationPos={a.length - idx} open={this.toggleProjectDetails} />).reverse()}
+        {Object.keys(projectInfo.projects).map((id, idx, a)=> <Project idx={idx} key={id} {...projectInfo.projects[id]} animationPos={a.length - idx} open={this.toggleProjectDetails} />).reverse()}
       </div>
     );
   }
