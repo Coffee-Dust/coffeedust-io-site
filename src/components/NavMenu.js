@@ -15,15 +15,20 @@ function NavMenu(props) {
     window.addEventListener('resize', _=> navRef.current.style = calcScaleFactor(navRef))
   },[])
 
+  const onNavClick = event=> {
+    document.querySelector(".App-content-container").scrollTo({top: 0})
+    props.toggleMenu(event)
+  }
+
   return (
     <div className="App-nav-menu opened">
       <img src={logo} className="App-logo" alt="logo" />
       <div className="Mobile-open-menu" onClick={props.toggleMenu}><span>menu</span></div>
       <nav ref={navRef}>
-        <NavLink to="/about" onClick={props.toggleMenu}>about me</NavLink>
-        <NavLink to="/blog" onClick={props.toggleMenu}>blog</NavLink>
-        <NavLink to="/projects" onClick={props.toggleMenu}>projects</NavLink>
-        <NavLink to="/resume" onClick={props.toggleMenu}>resumé</NavLink>
+        <NavLink to="/about" onClick={onNavClick}>about me</NavLink>
+        <NavLink to="/blog" onClick={onNavClick}>blog</NavLink>
+        <NavLink to="/projects" onClick={onNavClick}>projects</NavLink>
+        <NavLink to="/resume" onClick={onNavClick}>resumé</NavLink>
       </nav>
       <SocialLinks />
     </div>
