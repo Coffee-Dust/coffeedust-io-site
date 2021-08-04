@@ -9,7 +9,7 @@ const stackKnawledgeDesc = {
       In fact, this would be the second programming language I learned, after Swift.(not counting html or css)<br/>
       I do enjoy the simple syntax of the language, but I do actually prefer strongly-typed languages like Swift.<br/>
       <br/>
-      I've learned most of the ends and outs of this language, such as its method based approach to properties, and some more complicated things, like it's concurrent multi-threading system.<br/>
+      I've learned most of the ins and outs of this language, such as its method based approach to properties, and some more complicated things, like it's concurrent multi-threading system.<br/>
       <br/>
       Almost every major project I've built uses Ruby in some way. However, the projects I have below were mostly made with just Ruby, no major Frameworks.
     </p>
