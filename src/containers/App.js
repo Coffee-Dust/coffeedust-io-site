@@ -24,7 +24,6 @@ function App() {
         <main className="App-content-container blur-backdrop" onClick={toggleMenu}>
           <Routes />
         </main>
-        <h3 className="version-msg">public beta 3.0</h3>
       </div>
     </Router>
   );
