@@ -119,7 +119,8 @@ const projectInfo = {
       </article>
     ),
     "langs": [],
-    "techs": []
+    "techs": [],
+    "screenshotCaptions": ["Bean-feed page.", "Viewing a bean fullscreen"]
     }
   }
 }
