@@ -96,7 +96,8 @@ const projectInfo = {
     </article>
     ),
     "langs": [],
-    "techs": []
+    "techs": [],
+    "screenshotCaptions": ["My personal coffee table to hold my music stations"]
     },
     "coffee_beans": {
     "id": "coffee_beans",
