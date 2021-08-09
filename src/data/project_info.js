@@ -58,7 +58,7 @@ const projectInfo = {
     "id": "local_coffeeshop",
     "name": "The Local Coffeeshop - My Sinatra Project",
     "repo": "https://github.com/Coffee-Dust/the-local-coffeeshop",
-    "demo": false,
+    "demo": true,
     "desc": (
       <article>
         This was my first project in the world of Server Side web programming, as well as relational database design. It was built in the <a href="http://sinatrarb.com" target="_blank">Sinatra Domain Specific Language</a>, which is basically a ‘less magical’ Rails framework.<br/>
