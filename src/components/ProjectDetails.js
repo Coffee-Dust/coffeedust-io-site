@@ -41,7 +41,13 @@ function ProjectDetails(props) {
           (props.repo) ? <a className="repo" href={props.repo} target="_blank" rel="noreferrer"><button> <img src={gitHubLogo} /> <span>github repo</span></button></a> : null
         }
         {
-          (props.demo && demoServerIsRunning) ? <button className="demo" onClick={startDemo}>Launch Interactive Demo</button> : null
+          (props.demo && demoServerIsRunning) ? 
+            (props.CLI) ?
+              <a href={demoServerURL + "/virtual_terminal/new?project_name=" + props.id} target="_blank" rel="noreferrer"><button className="demo">Launch Interactive Demo</button></a>
+            :
+              <button className="demo" onClick={startDemo}>Launch Interactive Demo</button> 
+          : 
+            null
         }
       </div>
       <p>{props.desc}</p>
