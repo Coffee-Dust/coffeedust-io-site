@@ -11,7 +11,7 @@ function ProjectDetails(props) {
   const [demoServerIsRunning, setDemoServerIsRunning] = React.useState(false);
   fetch(demoServerURL + "/ping").then(_=> setDemoServerIsRunning(true)).catch(_=> console.log("Guess the demo server is down 🤷‍♂️"))
 
-  const startDemo = event=> {
+  const startDemo = _=> {
     const brewSound = new Audio(coffeeMachineSound)
     brewSound.volume = 0.4
     brewSound.play()
