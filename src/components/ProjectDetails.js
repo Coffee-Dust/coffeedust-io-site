@@ -16,7 +16,7 @@ function ProjectDetails(props) {
     brewSound.volume = 0.4
     brewSound.play()
 
-    fetch(demoServerURL + `?PROJECT_NAME=${props.id}`)
+    fetch(demoServerURL + "/projects/start?project_name=" + props.id)
     .then(prom => (prom.status === 200) ? prom.json() : alert("UH OH! the demo server did not response in your favor!"))
     .then(resp=> setDemoIsLoadingOnPort(resp.instancePort))
     .catch(e=> alert("UH OH! the demo server does not appear to be on 😬", e))
