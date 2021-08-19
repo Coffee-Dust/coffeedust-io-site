@@ -37,7 +37,8 @@ const projectInfo = {
     "id": "inventory_manager",
     "name": "Inventory Manager - My Ruby Project",
     "repo": "https://github.com/Coffee-Dust/Inventory-Manager",
-    "demo": false,
+    "demo": true,
+    "CLI": true,
     "desc": (
       <article>
         This project is a full SQL-less command-line interface database program. Why is it SQL-less? Up until this point, I had no knowledge of Structured Query Languages or how databases worked. What I did know, was how to create ruby objects in memory and create relationships between them.<br/>
