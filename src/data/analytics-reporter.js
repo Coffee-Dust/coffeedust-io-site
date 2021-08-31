@@ -1,3 +1,5 @@
+import AnalyticReport from "./analytic-report.js"
+
 class AnalyticsReporter {
   static config = {
     serverURL: "https://analytics.coffeedust.io/report",
