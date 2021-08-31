@@ -29,6 +29,10 @@ class AnalyticReport {
     }
   }
 
+  toJSON() {
+    return { eventType: this.eventType, eventDetails: this.eventDetails, ...this.ipData }
+  }
+
 }
 
 export default AnalyticReport
