@@ -5,7 +5,7 @@ class AnalyticsReporter {
   }
 
   static async reportEvent(eventType, details) {
-    const report = new Report({eventType, details})
+    const report = new AnalyticReport({eventType, details})
     await report.fetchIpInfo()
     return this.submitReport(report)
   }
