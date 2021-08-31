@@ -4,6 +4,14 @@ class AnalyticReport {
     "pageLoad"
   ]
 
+  async fetchIpInfo() {
+    return fetch("https://ipapi.co/json/").then(resp => resp.json())
+      .then(ipData => {
+        const { ip, city, region, country, country_name } = ipData
+        this.ipData = { ip, city, region, country, countryName: country_name }
+      })
+  }
+
   constructor(data) {
     this.eventType = data.eventType
     this.eventDetails = data.details
