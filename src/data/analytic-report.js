@@ -1,5 +1,8 @@
 class AnalyticReport {
 
+  validEvents = [
+    "pageLoad"
+  ]
 
   constructor(data) {
     this.eventType = data.eventType
