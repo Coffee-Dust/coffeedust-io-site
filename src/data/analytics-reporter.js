@@ -1,7 +1,7 @@
 import AnalyticReport from "./analytic-report.js"
 
 class AnalyticsReporter {
-  
+
   static config = {
     serverURL: "https://analytics.coffeedust.io/report",
     testServerURL: "http://localhost:420/report"
@@ -23,7 +23,7 @@ class AnalyticsReporter {
       body: JSON.stringify(report.toJSON())
     }
 
-    return fetch(this.config.testServerURL, postConfig).then(resp=> resp.json()).catch(error=> console.error("An error occured while submitting data to analytics.coffeedust.io", error))
+    return fetch(this.config.serverURL, postConfig).then(resp=> resp.json()).catch(error=> console.error("An error occured while submitting data to analytics.coffeedust.io", error))
   }
 
 }
