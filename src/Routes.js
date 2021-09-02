@@ -14,7 +14,7 @@ function Routes() {
     // Checks for direct project visit, i.e. cd.io/projects/:slug
     if (window.location.pathname !== "/projects" && window.location.pathname.includes("/projects")) {
       const projectNameFromSlug = window.location.pathname.slice(10)
-      AnalyticsReporter.reportEvent("pageLoad", {pageName: "/projects", directProjectLink: true, projectName: projectNameFromSlug}).then(e => console.log("dopimng athjigsk", e))
+      AnalyticsReporter.reportEvent("pageLoad", {pageName: "/projects", directProjectLink: true, projectName: projectNameFromSlug})
       AnalyticsReporter.reportEvent("projectDetailsClick", {projectName: projectNameFromSlug})
     } else {
       AnalyticsReporter.reportEvent("pageLoad", {pageName: window.location.pathname})
