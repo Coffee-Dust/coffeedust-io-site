@@ -12,9 +12,9 @@ class AnalyticReport {
       })
   }
 
-  constructor(data) {
-    this.eventType = data.eventType
-    this.eventDetails = data.details
+  constructor(eventType, details) {
+    this.eventType = eventType
+    this.eventDetails = details
   }
 
   get eventType() {
