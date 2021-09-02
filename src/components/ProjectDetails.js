@@ -12,6 +12,7 @@ function ProjectDetails(props) {
   fetch(demoServerURL + "/ping").then(_=> setDemoServerIsRunning(true)).catch(_=> console.log("Guess the demo server is down 🤷‍♂️"))
 
   const startDemo = _=> {
+    AnalyticsReporter.reportEvent("projectDemoStart", {projectName: props.name})
     const brewSound = new Audio(coffeeMachineSound)
     brewSound.volume = 0.4
     brewSound.play()
