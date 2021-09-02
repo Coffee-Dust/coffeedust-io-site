@@ -2,7 +2,8 @@ class AnalyticReport {
 
   validEvents = [
     "pageLoad",
-    "projectDetailsClick"
+    "projectDetailsClick",
+    "projectDemoStart"
   ]
 
   async fetchIpInfo() {
