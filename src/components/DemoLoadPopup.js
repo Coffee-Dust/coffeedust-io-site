@@ -21,7 +21,9 @@ function DemoLoadPopup({port, url, projectName}) {
     <div className="Projects-demo-load-popup">
       <h2>Demo Instance Status: {(isLoaded) ? "Ready!" : "Brewing"}</h2>
       <CoffeeMachineSVG />
-      <a href={demoServerURL} target="_blank" rel="noreferrer" disabled={!isLoaded}><button disabled={!isLoaded}>go to demo instance</button></a>
+      <a href={demoServerURL} target="_blank" rel="noreferrer" disabled={!isLoaded} onClick={AnalyticsReporter.reportEvent("projectDemoVisit", {projectName: projectName})}>
+        <button disabled={!isLoaded}>go to demo instance</button>
+      </a>
     </div>
   );
 }
