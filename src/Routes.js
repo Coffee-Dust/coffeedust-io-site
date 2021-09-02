@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch, Redirect, useLocation } from 'react-router-dom';
+import AnalyticsReporter from './data/analytics-reporter';
 import AboutPage from './pages/about';
 import BlogPage from './pages/blog';
 import ProjectsPage from './pages/projects'
