@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as CoffeeMachineSVG} from '../assets/coffeemachine.svg'
 
-function DemoLoadPopup({port, url}) {
+function DemoLoadPopup({port, url, projectName}) {
 
   const demoServerURL = `${url}:${port}`
 
