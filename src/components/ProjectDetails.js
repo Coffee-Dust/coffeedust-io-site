@@ -2,6 +2,7 @@ import React from 'react';
 import gitHubLogo from '../assets/GitHub-Logo.png';
 import DemoLoadPopup from './DemoLoadPopup';
 import coffeeMachineSound from '../assets/coffee_machine.mp3'
+import AnalyticsReporter from '../data/analytics-reporter';
 
 function ProjectDetails(props) {
   const demoServerURL = "https://demo.coffeedust.io"
