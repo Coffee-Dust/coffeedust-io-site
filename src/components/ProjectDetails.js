@@ -29,7 +29,7 @@ function ProjectDetails(props) {
   return (
     <div className="Project-details">
 
-      {(demoIsLoadingOnPort) ? <DemoLoadPopup port={demoIsLoadingOnPort} url={demoServerURL} projectName={props.name} /> : null}
+      {(demoIsLoadingOnPort) ? <DemoLoadPopup port={demoIsLoadingOnPort} url={demoServerURL} projectName={props.id} /> : null}
 
       <button className="close" 
       onClick={e=> {
