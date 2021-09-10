@@ -3,7 +3,7 @@ import AnalyticReport from "./analytic-report.js"
 class AnalyticsReporter {
 
   static config = {
-    serverURL: "https://analytics.coffeedust.io/report",
+    serverURL: "https://demo.coffeedust.io:420/report",
     testServerURL: "http://localhost:420/report"
   }
 
