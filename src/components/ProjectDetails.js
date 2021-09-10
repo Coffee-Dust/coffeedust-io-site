@@ -24,7 +24,7 @@ function ProjectDetails(props) {
     .catch(e=> alert("UH OH! the demo server does not appear to be on 😬", e))
   }
 
-  React.useEffect(_=> AnalyticsReporter.reportEvent("projectDetailsClick", {projectName: props.name}), [props.name])
+  React.useEffect(_=> AnalyticsReporter.reportEvent("projectDetailsClick", {projectName: props.id}), [props.name])
 
   return (
     <div className="Project-details">
