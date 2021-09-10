@@ -27,14 +27,7 @@ class ProjectsContainer extends Component {
 
     if (this.state.opened) {
       this.setState(s => ({ ...s, opened: false }))
-
-      // This fixes checks to see if the project was visted from direct URL or locally
-      if (window.history.state && window.history.state.openedFromLocalPage) {
-        window.history.back()
-      } else {
-        // It was visited from direct url, so no history.
-        window.location = "/projects"
-      }
+      window.history.pushState({projectDetailsJustClosed: true}, "", "/projects")
 
     } else {
       this.setState(s => ({ ...s, opened: event.target.parentNode.id}))

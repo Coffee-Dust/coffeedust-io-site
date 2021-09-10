@@ -2,6 +2,7 @@ import React from 'react';
 import gitHubLogo from '../assets/GitHub-Logo.png';
 import DemoLoadPopup from './DemoLoadPopup';
 import coffeeMachineSound from '../assets/coffee_machine.mp3'
+import AnalyticsReporter from '../data/analytics-reporter';
 
 function ProjectDetails(props) {
   const demoServerURL = "https://demo.coffeedust.io"
@@ -12,6 +13,7 @@ function ProjectDetails(props) {
   fetch(demoServerURL + "/ping").then(_=> setDemoServerIsRunning(true)).catch(_=> console.log("Guess the demo server is down 🤷‍♂️"))
 
   const startDemo = _=> {
+    AnalyticsReporter.reportEvent("projectDemoStart", {projectName: props.name})
     const brewSound = new Audio(coffeeMachineSound)
     brewSound.volume = 0.4
     brewSound.play()
@@ -22,11 +24,12 @@ function ProjectDetails(props) {
     .catch(e=> alert("UH OH! the demo server does not appear to be on 😬", e))
   }
 
+  React.useEffect(_=> AnalyticsReporter.reportEvent("projectDetailsClick", {projectName: props.id}), [props.name])
 
   return (
     <div className="Project-details">
 
-      {(demoIsLoadingOnPort) ? <DemoLoadPopup port={demoIsLoadingOnPort} url={demoServerURL} /> : null}
+      {(demoIsLoadingOnPort) ? <DemoLoadPopup port={demoIsLoadingOnPort} url={demoServerURL} projectName={props.id} /> : null}
 
       <button className="close" 
       onClick={e=> {
