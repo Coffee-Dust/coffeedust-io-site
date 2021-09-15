@@ -23,13 +23,13 @@ function ResumePage() {
         <section id="intro">
           <h2>Full Stack Web Software Engineer</h2>
           <hr/>
-          <p>Experienced in Javascript and Ruby on Rails based programming with a background in customer oriented, 5-star tech support. Writes innovative code that is clean, semantic, well engineered and efficient. Thinks ahead to figure out the best solution to a problem. Positive, fun and helpful person, always goes the extra mile to accomplish the task at hand.</p>
+          <p>Positive, fun and helpful Full Stack Web and iOS Developer with nearly 4 years of independent experience. Background in customer oriented, 5-star tech support, with a passion for solving problems and meeting new people. Writes innovative code that is semantic, organized and efficient. Always thinks ahead to figure out the best, most scalable and efficient solution to a problem. Desires to continue to learn, grow and test my skills and knowledge.</p>
         </section>
 
         <section id="skills">
           <h2>TECHNICAL SKILLS</h2>
           <hr/>
-          <p>Ruby, Ruby on Rails, Javascript, JS ES6, React, Redux, SQL, Database Modeling, ActiveRecord, CSS 3/HTML 5, Sinatra, Git/Github, Swift, Swift-SpriteKit</p>
+          <p>Ruby, Ruby on Rails, Javascript, JS ES6, React, Redux, SQL, Database Modeling, ActiveRecord, CSS 3/HTML 5, Sinatra, Git/Github, Swift, Swift-SpriteKit, TDD, Node JS, Express JS, SequelizeJS, MVC Architecture, REST</p>
         </section>
 
         <section id="projects">
@@ -53,18 +53,32 @@ function ResumePage() {
             <li>Modeled out the relational database schema with polymorphic models to reduce code repetition.</li>
           </ul>
 
-          <h4>Inventory Manager - <a href="https://github.com/Coffee-Dust/Inventory-Manager">Github</a> | <a href="https://coffeedust.io/projects/inventory_manager">Demo</a></h4>
-          <p>Command line interface app that allows you to view low inventory, add inventory, keep track of orders and much more.</p>
+          <h4>The 8-bit Master - <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100">App Store</a> | <a href="https://coffeedust.io/projects/8bit_master">More info</a></h4>
+          <p>Published iOS Game that featured a classic gameboy console interface and allowed users to play multiple 8-bit style games.</p>
           <ul>
-            <li>Engineered in vanilla Ruby without any frameworks, SQL or ORM’s but instead organizes and saves data in a single JSON file then parses that data into ruby class instances.</li>
-            <li>Used the Nokogiri Gem to build a Scraper that seeds the JSON file with data from grocery store websites.</li>
-            <li>Allowed users to Create, Read, Update and Delete items from memory and then save them to a JSON file.</li>
+            <li>Developed in Swift, Spritekit and Objective-C.</li>
+            <li>Ability for users to purchase game currency with in-app purchases along with using AdColony SDK for interstitial ads.</li>
+            <li>Received a total of 5k+ app unit downloads along with many reviews internationally with an average 4.5 stars overall.</li>
           </ul>
         </section>
         
         <section id="exp">
           <h2>EXPERIENCE</h2>
           <hr/>
+          <div className="split">
+            <h4>Full Stack Software Engineer</h4> <span>Knoxville, TN</span>
+          </div>
+          <div className="split">
+            <span className="desc">Independent - Part time</span> <span>2017 - Present</span>
+          </div>
+          <ul>
+            <li>3 years of Ruby, Javascript and Ruby on Rails experience. Nearly 2 years of iOS and Swift/OBJ-C experience.</li>
+            <li>Built and contributed to many projects in multiple languages and frameworks. Some public projects can be viewed and
+            demo’ed on coffeedust.io.</li>
+            <li>One of my most noteworthy accomplishments is a fully published iOS game called The 8-bit Master. I designed all of
+            the graphics, artwork, music and of course, the code.</li>
+          </ul>
+
           <div className="split">
             <h4>Asurion</h4> <span>Knoxville, TN</span>
           </div>
@@ -75,16 +89,6 @@ function ResumePage() {
           <ul>
             <li>Providing hands-on technical support and customer service to 40+ clients per month by delivering and setting up
             smartphones and troubleshooting technical issues. Consistently rated 5 stars across client experience, special mention for helpfulness and technical knowledge.</li>
-          </ul>
-
-          <div className="split">
-            <h4>Instacart</h4> <span>Knoxville, TN</span>
-          </div>
-          <div className="split">
-            <span className="desc">Full Service Shopper</span> <span>04/2020 - 10/2020</span>
-          </div>
-          <ul>
-            <li>Provided clients with excellent experiences by finding the best quality items in an agile, timely and efficient manner. Continuously improved outcomes by applying excellent communication and collaboration skills along with detail-oriented organization, planning and testing.</li>
           </ul>
         </section>
 
@@ -109,7 +113,8 @@ function ResumePage() {
             <span className="desc">Electives in Computer Programming/Information Technology, 4.0 GPA</span> <span>07/2016</span>
           </div>
         </section>
-
+      <br/>
+      <br/>
       </article>
 
     </div>
