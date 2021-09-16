@@ -33,7 +33,7 @@ function AboutPage() {
         <div id="diploma">
           <figure>
             <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
-            <figcaption>My Certificate of Completion from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
+            <figcaption>I'm also a graduate from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
           </figure>
         </div>
 
