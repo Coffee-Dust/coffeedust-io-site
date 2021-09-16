@@ -22,6 +22,8 @@ function AboutPage() {
           A positive, fun and helpful <em>Full Stack Web and iOS Developer</em> with a passion for <em>coffee</em> ☕️ and nearly 4 years of independent development experience. <br/>
           I love to meet new people, solve problems and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
           <br/>
+          <em>But don't just take my word for it, checkout my GitHub activity below!</em>
+          <a className="calendar" href="https://github.com/Coffee-Dust" target="_blank">contribs go here</a>
         </p>
 
         <div id="diploma">
