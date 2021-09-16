@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/css/AboutPage.css'
 import stackKnawledgeDesc from '../data/knawledge_stack_desc'
+import GitHubCalendar from 'github-calendar'
 
 function AboutPage() {
   const [displayedKnawledgeID, setDisplayedKnawledgeID] = React.useState("ruby");
