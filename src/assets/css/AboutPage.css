@@ -59,6 +59,7 @@
 div.calendar-container {
   grid-area: c;
   width: 95%;
+  margin-bottom: 20px;
 }
 
 div.calendar-container > p {
