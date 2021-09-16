@@ -54,6 +54,16 @@
   animation-delay: calc(2 * 200ms);
 }
 
+.intro > .calendar {
+  border: none;
+  text-decoration: none;
+  color: #2c1104;
+}
+
+a.calendar > div > div > div > svg > g > text.ContributionCalendar-label {
+  fill: #2c1104;
+}
+
 .Page-about > p.intro > ul > li {
   margin-bottom: 10px;
 }
