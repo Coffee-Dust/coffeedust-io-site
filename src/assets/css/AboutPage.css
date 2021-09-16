@@ -8,8 +8,9 @@
   display: grid;
   grid-template-areas: 
   'p ih2 ih2'
-  'p ih2 ih2'
-  'i i d'
+  'p i i'
+  'd i i'
+  'c c c'
   'sk sk sk'
   'sk sk sk';
 }
@@ -45,14 +46,41 @@
 .Page-about > p.intro {
   grid-area: i;
   font-size: 1.1em;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 15px;
 
   animation: fadeIn 700ms ease-out;
   animation-fill-mode: backwards;
   animation-delay: calc(2 * 200ms);
 }
 
-.Page-about > p.intro > ul > li {
-  margin-bottom: 10px;
+div.calendar-container {
+  grid-area: c;
+  width: 95%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(3 * 200ms);
+}
+
+div.calendar-container > p {
+  padding: 10px 0;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+a.calendar {
+  border: none;
+  text-decoration: none;
+  color: #2c1104;
+}
+
+.calendar-container > a.calendar > div > div > div > svg > g > text.ContributionCalendar-label {
+  fill: #2c1104;
 }
 
 .Page-about > #diploma {
@@ -62,6 +90,7 @@
   animation: fadeIn 700ms ease-out;
   animation-fill-mode: backwards;
   animation-delay: calc(2.3 * 200ms);
+  padding: 15px;
 }
 .Page-about > #diploma > figure {
   margin: 0px;
@@ -70,7 +99,7 @@
   border: solid 3px #2c1104;
   /* border-radius: 10px; */
   box-shadow: 3px 3px 10px 2px #000000e7;
-  transform: rotate(4deg);
+  transform: rotate(-4deg);
 }
 .Page-about > #diploma > figure > img {
   width: 100%;
@@ -204,6 +233,7 @@
     'ih2 ih2 ih2'
     'i i i'
     'd d d'
+    'c c c'
     'sk sk sk'
     'sk sk sk';
   }

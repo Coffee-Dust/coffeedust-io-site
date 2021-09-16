@@ -1,6 +1,8 @@
 import React from 'react';
+import '../assets/css/github-calendar-responsive.css'
 import '../assets/css/AboutPage.css'
 import stackKnawledgeDesc from '../data/knawledge_stack_desc'
+import GitHubCalendar from 'github-calendar'
 
 function AboutPage() {
   const [displayedKnawledgeID, setDisplayedKnawledgeID] = React.useState("ruby");
@@ -9,7 +11,7 @@ function AboutPage() {
   const CodeIcon = props=> (
     <img id={props.id} src={require(`./../assets/code_icons/${props.id}.png`).default} alt="click to view more" onClick={displayKnawledge} className={(displayedKnawledgeID === props.id) ? "active" : ""}/>
   )
-
+  React.useEffect(_=> GitHubCalendar(".calendar", "Coffee-Dust", {responsive: true, global_stats: false}),[])
   return (
     <div className="Page-content">
       <h1>$ whoami</h1>
@@ -18,23 +20,20 @@ function AboutPage() {
         <img className="my-face" alt="My face" src={require(`./../assets/my_face.jpg`).default}/>
         <h2>Hi! <br/><br/> I'm John Dust,</h2>
         <p className="intro">
-          A software engineer with a passion for <em>coffee</em> ☕️ &nbsp;that is experienced in
-          <ul>
-            <li>
-              <em>Full Stack Web Development</em>, 
-            </li>
-            <li>
-              <em>Game Design and Object Oriented Programming</em>,
-            </li>
-            <li>And a graduate from <em>Flatiron School</em>.</li>
-          </ul>
+          A positive, fun and helpful <em>Full Stack Web and iOS Developer</em> with a passion for <em>coffee</em> ☕️ and nearly 4 years of independent development experience. <br/>
+          I love to meet new people, solve problems and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
         </p>
 
         <div id="diploma">
           <figure>
             <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
-            <figcaption>My Certificate of Completion from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
+            <figcaption>I'm also a graduate from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
           </figure>
+        </div>
+        
+        <div className="calendar-container">
+          <p><em>But don't just take my word for it, checkout my GitHub activity below!</em></p>
+          <a className="calendar" href="https://github.com/Coffee-Dust" target="_blank">contribs go here</a>
         </div>
 
         <section className="knawledge background-blur">
