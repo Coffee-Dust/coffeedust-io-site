@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/css/github-calendar-responsive.css'
 import '../assets/css/AboutPage.css'
 import stackKnawledgeDesc from '../data/knawledge_stack_desc'
 import GitHubCalendar from 'github-calendar'
