@@ -65,10 +65,6 @@ a.calendar > div > div > div > svg > g > text.ContributionCalendar-label {
   fill: #2c1104;
 }
 
-.Page-about > p.intro > ul > li {
-  margin-bottom: 10px;
-}
-
 .Page-about > #diploma {
   grid-area: d;
   align-self: center;
