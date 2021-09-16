@@ -21,9 +21,6 @@ function AboutPage() {
         <p className="intro">
           A positive, fun and helpful <em>Full Stack Web and iOS Developer</em> with a passion for <em>coffee</em> ☕️ and nearly 4 years of independent development experience. <br/>
           I love to meet new people, solve problems and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
-          <br/>
-          <em>But don't just take my word for it, checkout my GitHub activity below!</em>
-          <a className="calendar" href="https://github.com/Coffee-Dust" target="_blank">contribs go here</a>
         </p>
 
         <div id="diploma">
@@ -31,6 +28,11 @@ function AboutPage() {
             <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
             <figcaption>I'm also a graduate from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
           </figure>
+        </div>
+        
+        <div className="calendar-container">
+          <p><em>But don't just take my word for it, checkout my GitHub activity below!</em></p>
+          <a className="calendar" href="https://github.com/Coffee-Dust" target="_blank">contribs go here</a>
         </div>
 
         <section className="knawledge background-blur">
