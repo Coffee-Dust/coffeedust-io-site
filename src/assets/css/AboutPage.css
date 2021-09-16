@@ -8,8 +8,8 @@
   display: grid;
   grid-template-areas: 
   'p ih2 ih2'
-  'p ih2 ih2'
-  'i i d'
+  'p i i'
+  'd i i'
   'sk sk sk'
   'sk sk sk';
 }
