@@ -55,13 +55,25 @@
   animation-delay: calc(2 * 200ms);
 }
 
-.intro > .calendar {
+div.calendar-container {
+  grid-area: c;
+  width: 95%;
+}
+
+div.calendar-container > p {
+  padding: 10px 0;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+a.calendar {
   border: none;
   text-decoration: none;
   color: #2c1104;
 }
 
-a.calendar > div > div > div > svg > g > text.ContributionCalendar-label {
+.calendar-container > a.calendar > div > div > div > svg > g > text.ContributionCalendar-label {
   fill: #2c1104;
 }
 
