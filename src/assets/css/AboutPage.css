@@ -45,6 +45,9 @@
 .Page-about > p.intro {
   grid-area: i;
   font-size: 1.1em;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 15px;
 
   animation: fadeIn 700ms ease-out;
   animation-fill-mode: backwards;
