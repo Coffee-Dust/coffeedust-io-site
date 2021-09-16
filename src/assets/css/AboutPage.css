@@ -59,6 +59,7 @@ div.calendar-container {
   grid-area: c;
   width: 95%;
   margin-bottom: 20px;
+  margin: 0 auto;
 
   animation: fadeIn 700ms ease-out;
   animation-fill-mode: backwards;
