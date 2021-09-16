@@ -18,16 +18,9 @@ function AboutPage() {
         <img className="my-face" alt="My face" src={require(`./../assets/my_face.jpg`).default}/>
         <h2>Hi! <br/><br/> I'm John Dust,</h2>
         <p className="intro">
-          A software engineer with a passion for <em>coffee</em> ☕️ &nbsp;that is experienced in
-          <ul>
-            <li>
-              <em>Full Stack Web Development</em>, 
-            </li>
-            <li>
-              <em>Game Design and Object Oriented Programming</em>,
-            </li>
-            <li>And a graduate from <em>Flatiron School</em>.</li>
-          </ul>
+          A positive, fun and helpful <em>Full Stack Web and iOS Developer</em> with a passion for <em>coffee</em> ☕️ and nearly 4 years of independent development experience. <br/>
+          I love to <em>meet new people</em>, <em>solve problems</em> and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
+          But don't just take my word for it, checkout my github!
         </p>
 
         <div id="diploma">
