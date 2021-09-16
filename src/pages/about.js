@@ -10,7 +10,7 @@ function AboutPage() {
   const CodeIcon = props=> (
     <img id={props.id} src={require(`./../assets/code_icons/${props.id}.png`).default} alt="click to view more" onClick={displayKnawledge} className={(displayedKnawledgeID === props.id) ? "active" : ""}/>
   )
-
+  React.useEffect(_=> GitHubCalendar(".calendar", "Coffee-Dust", {responsive: true, global_stats: false}),[])
   return (
     <div className="Page-content">
       <h1>$ whoami</h1>
