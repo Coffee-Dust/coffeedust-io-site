@@ -60,6 +60,10 @@ div.calendar-container {
   grid-area: c;
   width: 95%;
   margin-bottom: 20px;
+
+  animation: fadeIn 700ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: calc(3 * 200ms);
 }
 
 div.calendar-container > p {
