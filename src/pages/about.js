@@ -19,8 +19,8 @@ function AboutPage() {
         <h2>Hi! <br/><br/> I'm John Dust,</h2>
         <p className="intro">
           A positive, fun and helpful <em>Full Stack Web and iOS Developer</em> with a passion for <em>coffee</em> ☕️ and nearly 4 years of independent development experience. <br/>
-          I love to <em>meet new people</em>, <em>solve problems</em> and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
-          But don't just take my word for it, checkout my github!
+          I love to meet new people, solve problems and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
+          <br/>
         </p>
 
         <div id="diploma">
