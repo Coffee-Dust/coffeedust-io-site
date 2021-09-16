@@ -33,7 +33,7 @@ function AboutPage() {
         
         <div className="calendar-container">
           <p><em>But don't just take my word for it, checkout my GitHub activity below!</em></p>
-          <a className="calendar" href="https://github.com/Coffee-Dust" target="_blank">contribs go here</a>
+          <a className="calendar" href="https://github.com/Coffee-Dust" target="_blank" rel="noreferrer">contribs go here</a>
         </div>
 
         <section className="knawledge background-blur">
