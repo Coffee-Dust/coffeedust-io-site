@@ -21,7 +21,7 @@ function ResumePage() {
         </section>
 
         <section id="intro">
-          <h2>Full Stack Web Software Engineer</h2>
+          <h2>Full Stack Software Engineer</h2>
           <hr/>
           <p>Positive, fun and helpful Full Stack Web and iOS Developer with nearly 4 years of independent experience. Background in customer oriented, 5-star tech support, with a passion for solving problems and meeting new people. Writes innovative code that is semantic, organized and efficient. Always thinks ahead to figure out the best, most scalable and efficient solution to a problem. Desires to continue to learn, grow and test skills and knowledge.</p>
         </section>
