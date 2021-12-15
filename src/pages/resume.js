@@ -29,7 +29,7 @@ function ResumePage() {
         <section id="skills">
           <h2>TECHNICAL SKILLS</h2>
           <hr/>
-          <p>Ruby, Ruby on Rails, Javascript, JS ES6, React, Redux, SQL, Database Modeling, ActiveRecord, CSS 3/HTML 5, Sinatra, Git/Github, Swift, Swift-SpriteKit, TDD, Node JS, Express JS, SequelizeJS, MVC Architecture, REST</p>
+          <p>Javascript ES6, Ruby, Swift, SQL, Ruby on Rails, React, Sinatra, Node JS, Express JS, SequelizeJS, Swift-SpriteKit, REST, MVC Architecture, Database Modeling, Git/Github, Test Driven Development</p>
         </section>
 
         <section id="projects">
@@ -66,45 +66,46 @@ function ResumePage() {
           <h2>EXPERIENCE</h2>
           <hr/>
           <div className="split">
-            <h4>Full Stack Software Engineer</h4> <span>Knoxville, TN</span>
+            <h4>Full Stack Software Engineer</h4> <span>Knoxville, TN (Remote)</span>
           </div>
           <div className="split">
             <span className="desc">Independent - Part time</span> <span>2017 - Present</span>
           </div>
           <ul>
-            <li>3 years of Ruby, Javascript and Ruby on Rails experience. Nearly 2 years of iOS and Swift/OBJ-C experience.</li>
-            <li>Built and contributed to many projects in multiple languages and frameworks. Some public projects can be viewed and
-            demo’ed on coffeedust.io.</li>
-            <li>One of my most noteworthy accomplishments is a fully published iOS game called The 8-bit Master. I designed all of
-            the graphics, artwork, music and of course, the code.</li>
+            <li>Developed both frontend and backend features for clients in Ruby on Rails, Sinatra, NodeJS, React.</li>
+            <li>Built and contributed to many projects and applications in multiple languages and frameworks.</li>
+            <li>Maintained a handful of web applications for clients.</li>
           </ul>
 
           <div className="split">
-            <h4>Asurion</h4> <span>Knoxville, TN</span>
+            <h4>Flatiron School</h4> <span>Remote</span>
           </div>
           <div className="split">
-            <span className="desc">Asurion Expert - Part time</span>
-            <span>10/2020 - Present</span>
+            <span className="desc">Full Stack Web Development, Ruby on Rails and JavaScript Program</span>
+            <span>09/2017 - 05/2021</span>
           </div>
           <ul>
-            <li>Providing hands-on technical support and customer service to 40+ clients per month by delivering and setting up
-            smartphones and troubleshooting technical issues. Consistently rated 5 stars across client experience, special mention for helpfulness and technical knowledge.</li>
+            <li>Built 5 major projects, 4 of which were full stack web apps, 2 single page applications. View them <a href="/projects">here</a>.</li>
+            <li>Collaborated with multiple stakeholders while working on projects.</li>
+            <li>Assisted students with troubleshooting and debugging.</li>
           </ul>
+
+          <div className="split">
+            <h4>iOS Software Engineer</h4> <span>Knoxville, TN (Remote)</span>
+          </div>
+          <div className="split">
+            <span className="desc">Independent - Full time</span> <span>09/2016 - 10/2017</span>
+          </div>
+          <ul>
+            <li>Engineered apps for iPadOS, iOS, tvOS & OSX in Swift & OBJ-C.</li>
+            <li>Developed and published The 8-bit Master game that received a total of 5k+ app unit downloads.</li>
+          </ul>
+
         </section>
 
         <section id="knawledge">
           <h2>EDUCATION</h2>
           <hr/>
-          <div className="split">
-            <h4>Flatiron School</h4><span>Knoxville, TN</span>
-          </div>
-          <br/>
-          <div className="split">
-            <span className="desc">Full Stack Web Development, Ruby on Rails and JavaScript Program</span> <span>01/2019 - 06/2021</span>
-          </div>
-          <br/>
-          <br/>
-          <br/>
           <div className="split">
             <h4>Penn Foster - High School</h4> <span>Knoxville, TN</span>
           </div>
