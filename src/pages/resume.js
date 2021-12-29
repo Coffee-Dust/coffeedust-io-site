@@ -23,7 +23,7 @@ function ResumePage() {
         <section id="intro">
           <h2>Full Stack Software Engineer</h2>
           <hr/>
-          <p>Positive, fun and helpful Full Stack Web and iOS Developer with nearly 4 years of independent experience. Background in customer oriented, 5-star tech support, with a passion for solving problems and meeting new people. Writes innovative code that is semantic, organized and efficient. Always thinks ahead to figure out the best, most scalable and efficient solution to a problem. Desires to continue to learn, grow and test skills and knowledge.</p>
+          <p>Positive, fun and helpful Full Stack Web and iOS Developer with 5 years of part-time independent experience. <br/>Self-taught developer with a passion for solving problems and meeting new people. <br/>Writes innovative code that is semantic, organized and efficient. Always thinks ahead to figure out the best, most scalable and efficient solution to a problem. Desires to continue to learn, grow and test skills and knowledge.</p>
         </section>
 
         <section id="skills">
@@ -56,9 +56,9 @@ function ResumePage() {
           <h4>The 8-bit Master - <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100">App Store</a> | <a href="https://coffeedust.io/projects/8bit_master">More info</a></h4>
           <p>Published iOS Game that featured a classic gameboy console interface and allowed users to play multiple 8-bit style games.</p>
           <ul>
-            <li>Developed in Swift, Spritekit and Objective-C.</li>
-            <li>Ability for users to purchase game currency with in-app purchases along with using AdColony SDK for interstitial ads.</li>
             <li>Received a total of 5k+ app unit downloads along with many reviews internationally with an average 4.5 stars overall.</li>
+            <li>Developed using Swift language & Spritekit framework, and designed all of the UI/UX, graphics, 8-bit artwork and music.</li>
+            <li>Created ability for users to purchase game currency with in-app purchases along with using AdColony SDK for interstitial ads.</li>
           </ul>
         </section>
         
@@ -66,39 +66,25 @@ function ResumePage() {
           <h2>EXPERIENCE</h2>
           <hr/>
           <div className="split">
-            <h4>Full Stack Software Engineer</h4> <span>Knoxville, TN (Remote)</span>
+            <h4>Software Engineer</h4> <span>Knoxville, TN (Remote)</span>
           </div>
           <div className="split">
-            <span className="desc">Independent - Part time</span> <span>2017 - Present</span>
+            <span className="desc">Independent - Part-Time</span> <span>10/2016 - Present</span>
           </div>
           <ul>
-            <li>Developed both frontend and backend features for clients in Ruby on Rails, Sinatra, NodeJS, React.</li>
-            <li>Built and contributed to many projects and applications in multiple languages and frameworks.</li>
-            <li>Maintained a handful of web applications for clients.</li>
+            <li>Built and developed applications for web and iOS in technologies such as Ruby on Rails, React, Swift.</li>
+            <li>Maintains and develops both frontend and backend features for clients on a handful of web applications.</li>
+            <li>Developed The 8-bit Master iOS game and published it to the App Store.</li>
           </ul>
 
           <div className="split">
-            <h4>Flatiron School</h4> <span>Remote</span>
+            <h4>Lead In-Home Tech Expert</h4> <span>Knoxville, TN</span>
           </div>
           <div className="split">
-            <span className="desc">Full Stack Web Development, Ruby on Rails and JavaScript Program</span>
-            <span>09/2017 - 05/2021</span>
+            <span className="desc">Asurion - Part-Time</span> <span>10/2020 - 01/2022</span>
           </div>
           <ul>
-            <li>Built 5 major projects, 4 of which were full stack web apps, 2 single page applications. View them <a href="/projects">here</a>.</li>
-            <li>Collaborated with multiple stakeholders while working on projects.</li>
-            <li>Assisted students with troubleshooting and debugging.</li>
-          </ul>
-
-          <div className="split">
-            <h4>iOS Software Engineer</h4> <span>Knoxville, TN (Remote)</span>
-          </div>
-          <div className="split">
-            <span className="desc">Independent - Full time</span> <span>09/2016 - 10/2017</span>
-          </div>
-          <ul>
-            <li>Engineered apps for iPadOS, iOS, tvOS & OSX in Swift & OBJ-C.</li>
-            <li>Developed and published The 8-bit Master game that received a total of 5k+ app unit downloads.</li>
+            <li>Providing hands-on technical support and customer service to 40+ clients per month by delivering and setting up smartphones and troubleshooting technical issues. Consistently rated 5 stars across client experience, special mention for helpfulness, friendliness and technical knowledge.</li>
           </ul>
 
         </section>
@@ -106,6 +92,19 @@ function ResumePage() {
         <section id="knawledge">
           <h2>EDUCATION</h2>
           <hr/>
+          <div className="split">
+            <h4>Flatiron School Bootcamp</h4> <span>Remote</span>
+          </div>
+          <div className="split">
+            <span className="desc">Full Stack Web Development, Ruby on Rails and JavaScript Program</span>
+            <span>05/2021</span>
+          </div>
+          <ul>
+            <li>Built 5 major projects, 4 of which were full stack web apps, 2 single page applications. View them <a href="/projects">here</a>.</li>
+            <li>Collaborated with multiple stakeholders while working on projects.</li>
+            <li>Assisted students with troubleshooting and debugging.</li>
+          </ul>
+
           <div className="split">
             <h4>Penn Foster - High School</h4> <span>Knoxville, TN</span>
           </div>
