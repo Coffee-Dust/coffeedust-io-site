@@ -17,7 +17,7 @@ function ResumePage() {
         <h1>John Dust</h1>
         <section id="contact">
           Knoxville, TN & Willing to relocate | <a href="tel:+8655675032">865-567-5032</a> | <a href="mailto:coffeedust.io@gmail.com">coffeedust.io@gmail.com</a> <br/>
-          Personal Website: www.coffeedust.io | <a href="https://github.com/Coffee-Dust">GitHub</a> | <a href="https://www.linkedin.com/in/coffeedust/">LinkedIn</a> <br/>
+          Personal Website: www.dust.coffee | <a href="https://github.com/Coffee-Dust">GitHub</a> | <a href="https://www.linkedin.com/in/coffeedust/">LinkedIn</a> <br/>
         </section>
 
         <section id="intro">
@@ -36,7 +36,7 @@ function ResumePage() {
           <h2>TECHNICAL PROJECTS</h2>
           <hr/>
 
-          <h4>Coffee-Beans Social Media - <a href="https://github.com/Coffee-Dust/React-Coffee-Beans">Github</a> | <a href="https://coffeedust.io/projects/coffee_beans">Demo</a></h4>
+          <h4>Coffee-Beans Social Media - <a href="https://github.com/Coffee-Dust/React-Coffee-Beans">Github</a> | <a href="https://dust.coffee/projects/coffee_beans">Demo</a></h4>
           <p>A twitter clone where tweets are coffee beans. Users can share pictures, stories, comment on posts and react to both comments and posts alike.</p>
           <ul>
             <li>Built frontend in the React framework with Redux state management pattern.</li>
@@ -45,7 +45,7 @@ function ResumePage() {
             persist user submitted media.</li>
           </ul>
 
-          <h4>My Coffee Table - <a href="https://github.com/Coffee-Dust/My-Coffee-Table">Github</a> | <a href="https://coffeedust.io/projects/my_coffee_table">Demo</a></h4>
+          <h4>My Coffee Table - <a href="https://github.com/Coffee-Dust/My-Coffee-Table">Github</a> | <a href="https://dust.coffee/projects/my_coffee_table">Demo</a></h4>
           <p>A single page web application that gives users a space (coffee table) to add, move around and customize pictures, weblinks, text, notes etc.</p>
           <ul>
             <li>Coded the frontend in vanilla ES6 Javascript in an Object Oriented JS paradigm for clear and semantic code organization.</li>
@@ -53,7 +53,7 @@ function ResumePage() {
             <li>Modeled out the relational database schema with polymorphic models to reduce code repetition.</li>
           </ul>
 
-          <h4>The 8-bit Master - <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100">App Store</a> | <a href="https://coffeedust.io/projects/8bit_master">More info</a></h4>
+          <h4>The 8-bit Master - <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100">App Store</a> | <a href="https://dust.coffee/projects/8bit_master">More info</a></h4>
           <p>Published iOS Game that featured a classic gameboy console interface and allowed users to play multiple 8-bit style games.</p>
           <ul>
             <li>Received a total of 5k+ app unit downloads along with many reviews internationally with an average 4.5 stars overall.</li>
