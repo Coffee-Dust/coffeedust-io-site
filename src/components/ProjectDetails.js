@@ -5,7 +5,7 @@ import coffeeMachineSound from '../assets/coffee_machine.mp3'
 import AnalyticsReporter from '../data/analytics-reporter';
 
 function ProjectDetails(props) {
-  const demoServerURL = "https://demo.coffeedust.io"
+  const demoServerURL = "https://demo.dust.coffee"
 
   const [demoIsLoadingOnPort, setDemoIsLoadingOnPort] = React.useState(false);
 
