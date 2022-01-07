@@ -23,7 +23,7 @@ const projectInfo = {
       <h4>Meteoroids Features</h4>
       This game was modeled after classic arcade space shooter games.
       <ul>
-        <li>Tt allowed the user to earn gold by shooting asteroids in space</li>
+        <li>It allowed the user to earn gold by shooting asteroids in space</li>
         <li>use that gold to purchase power-ups and use those power-ups during gameplay</li>
         <li>Let users make various upgrades to their gameplay over time</li>
       </ul>
