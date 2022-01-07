@@ -39,6 +39,7 @@ function Routes() {
       <Route exact path="/projects">
         <ProjectsPage />
       </Route>
+      <Redirect from='*' to='/about' />
     </Switch>
   );
 }
