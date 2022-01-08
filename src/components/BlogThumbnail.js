@@ -7,6 +7,10 @@ function BlogThumbnail({idx, title, description, thumbnail, openPost}) {
   .filter((v, i, a) => !(v === "<" || v === ">" || a[i - 1] === "<" || a[i + 1] === ">"))
   .join("") + "..."
 
+  const redirectToMedium = e=> {
+    window.location.href = link
+  }
+
   return (
     <div 
     id={idx}
