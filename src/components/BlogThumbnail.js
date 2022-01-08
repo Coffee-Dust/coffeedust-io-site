@@ -16,7 +16,7 @@ function BlogThumbnail({idx, title, description, thumbnail, openPost, link}) {
     id={idx}
     className="Blogs-thumbnail"
     style={{ backgroundImage: `url(${thumbnail})`, "--animation-order": `${idx + 1}` }}
-    onClick={openPost}
+    onClick={redirectToMedium}
     >
       <div className="info-wrapper">
         <h2>{title}</h2>
