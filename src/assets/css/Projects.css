@@ -118,6 +118,12 @@
   margin-left: 10px;
 }
 
+.Project-details > .links > button.demo:disabled {
+  filter: grayscale(1);
+  filter: brightness(0.2);
+  cursor: wait;
+}
+
 .Project-details > .links > .repo > button > span {
   vertical-align: middle;
 }
