@@ -23,9 +23,6 @@ function DemoLoadPopup({port, url, projectName, setDemoIsLoadingOnPort}) {
       <h2>The interactive demo is {(isLoaded) ? "loaded!" : "brewing (loading)"}</h2>
       <h3>You will be redirected shortly.</h3>
       <CoffeeMachineSVG />
-      <a href={demoServerURL} target="_blank" rel="noreferrer" disabled={!isLoaded} onClick={_=> AnalyticsReporter.reportEvent("projectDemoVisit", {projectName: projectName})}>
-        <button disabled={!isLoaded}>go to demo instance</button>
-      </a>
     </div>
   );
 }
