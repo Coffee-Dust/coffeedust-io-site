@@ -10,7 +10,28 @@ function ProjectDetails(props) {
   const [demoIsLoadingOnPort, setDemoIsLoadingOnPort] = React.useState(false);
 
   const [demoServerIsRunning, setDemoServerIsRunning] = React.useState(false);
-  fetch(demoServerURL + "/ping").then(_=> setDemoServerIsRunning(true)).catch(_=> console.log("Guess the demo server is down 🤷‍♂️"))
+
+  let checkDemoServerIsRunningInterval;
+  let checkDemoServerAttempts = 0;
+
+  const checkDemoServerIsRunning = async _=> {
+    try {
+      await fetch(demoServerURL + "/ping")
+      setDemoServerIsRunning(true)
+      clearInterval(checkDemoServerIsRunningInterval)
+    } catch (error) {
+      checkDemoServerAttempts += 1
+      if (checkDemoServerAttempts > 50) {
+        clearInterval(checkDemoServerIsRunningInterval)
+      }
+    }
+  }
+
+  React.useEffect(_=> {
+    checkDemoServerIsRunningInterval = setInterval(checkDemoServerIsRunning, 500)
+    return _=> {clearInterval(checkDemoServerIsRunningInterval)}
+  }, [])
+
 
   const startDemo = _=> {
     AnalyticsReporter.reportEvent("projectDemoStart", {projectName: props.name})
