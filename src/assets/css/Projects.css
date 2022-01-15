@@ -219,16 +219,18 @@
 
 .Projects-demo-load-popup {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  /* background: #000000da; */
+  top: 10%;
+  left: 25%;
+  border-radius: 25px;
   background: #fcf2e6b2;
-  width: 100%;
-  min-height: 100vh;
+  width: 50%;
+  min-width: 200px;
+  margin: auto;
   padding: 10px;
   -webkit-backdrop-filter: blur(10px);
   -moz-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  box-shadow: 4px 7px 8px 5px #000000da;
 }
 
 .Projects-demo-load-popup > h2 {
