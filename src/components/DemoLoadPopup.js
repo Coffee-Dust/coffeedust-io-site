@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactComponent as CoffeeMachineSVG} from '../assets/coffeemachine.svg'
 import AnalyticsReporter from '../data/analytics-reporter';
 
-function DemoLoadPopup({port, url, projectName}) {
+function DemoLoadPopup({port, url, projectName, setDemoIsLoadingOnPort}) {
 
   const demoServerURL = `${url}:${port}`
 
