@@ -22,7 +22,8 @@ function DemoLoadPopup({port, url, projectName, setDemoIsLoadingOnPort}) {
       await fetch(demoServerURL)
       setIsLoaded(true)
       clearInterval(checkInstanceIsLoadedInterval)
-      setTimeout(redirectToDemo, 4000)
+      let timeoutTime = 4000 - (isLoadedAttempts * 100)
+      setTimeout(redirectToDemo, timeoutTime)
     } catch (error) {
       isLoadedAttempts += 1
       if (isLoadedAttempts > 500) {
