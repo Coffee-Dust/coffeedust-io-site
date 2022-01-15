@@ -8,15 +8,37 @@ function DemoLoadPopup({port, url, projectName, setDemoIsLoadingOnPort}) {
 
   const [isLoaded, setIsLoaded] = React.useState(false);
 
-  (async function checkInstanceIsLoaded() {
+  const redirectToDemo = _=> {
+    AnalyticsReporter.reportEvent("projectDemoVisit", {projectName: projectName})
+    setDemoIsLoadingOnPort(false)
+    window.location.href = demoServerURL
+  }
+
+  let checkInstanceIsLoadedInterval;
+  let isLoadedAttempts = 0
+
+  const checkInstanceIsLoaded = async _=> {
     try {
       await fetch(demoServerURL)
       setIsLoaded(true)
+      clearInterval(checkInstanceIsLoadedInterval)
+      setTimeout(redirectToDemo, 4000)
     } catch (error) {
-      console.log("Instance is not loaded yet! Trying again", error)
-      await checkInstanceIsLoaded()
+      isLoadedAttempts += 1
+      if (isLoadedAttempts > 500) {
+        clearInterval(checkInstanceIsLoadedInterval)
+        setDemoIsLoadingOnPort(false)
+        alert("Uh Oh... I had trouble starting that demo. Please try again.")
+      }
     }
-  })()
+  }
+
+  React.useEffect(_=> {
+    checkInstanceIsLoadedInterval = setInterval(checkInstanceIsLoaded, 100)
+    return _=> {
+      clearInterval(checkInstanceIsLoadedInterval)
+    };
+  }, []);
 
   return (
     <div className="Projects-demo-load-popup">
