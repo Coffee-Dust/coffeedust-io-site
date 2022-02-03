@@ -5,8 +5,8 @@ function BlogPost({title, brief, coverImage, slug, content, closePost}) {
     <div className="Blogs-post blur-backdrop">
       <button className="close" onClick={closePost}>x</button>
       <h2>{title}</h2>
-      <img src={thumbnail} alt="" />
-      <article dangerouslySetInnerHTML={{ __html: content }} />
+      <img src={coverImage} alt="" />
+      <article dangerouslySetInnerHTML={{ __html: (content) ? content : brief }} />
 
     </div>
   );
