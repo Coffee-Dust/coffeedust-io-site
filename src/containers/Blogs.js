@@ -28,10 +28,8 @@ class BlogsContainer extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@coffeedust").then(r=>r.json())
-    .then(data=> {
-      const posts = data.items.map((blogData, idx)=> <BlogPost {...blogData} key={idx} />)
-      this.setState(s=> ({...s, posts: posts, postData: data.items}))
+    getAllBlogPostData().then(data=> {
+      this.setState(s=> ({...s, postData: data}))
     })
   }
 
