@@ -17,7 +17,7 @@ function BlogThumbnail({idx, title, brief, coverImage, openPost, slug}) {
     >
       <div className="info-wrapper">
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p>{briefDesc}</p>
       </div>
     </div>
   );
