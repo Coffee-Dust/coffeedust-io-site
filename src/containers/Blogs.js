@@ -35,13 +35,8 @@ class BlogsContainer extends Component {
   render() {
     return (
       <div className="Blogs-container">
-        {
-        (this.state.openedPostData) ?
-          <BlogPost {...this.state.openedPostData} closePost={this.closePost}/>
-        :
-          null
-      }
-      {this.state.postData.map((data, idx)=> <BlogThumbnail key={"BLOG_THUMBNAIL" + data.slug} idx={idx} {...data} openPost={this.openPost} />)}
+        { this.state.openedPostData && <BlogPost {...this.state.openedPostData} closePost={this.closePost}/> }
+        {this.state.postData.map((data, idx)=> <BlogThumbnail key={"BLOG_THUMBNAIL" + data.slug} idx={idx} {...data} openPost={this.openPost} />)}
       </div>
     );
   }
