@@ -27,9 +27,7 @@ class BlogsContainer extends Component {
   }
 
   componentDidMount() {
-    getAllBlogPostData().then(data=> {
-      this.setState(s=> ({...s, postData: data}))
-    })
+    getAllBlogPostData(postsOnPage=> this.setState(s=> ({...s, postData: postsOnPage})))
   }
 
   render() {
