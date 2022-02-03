@@ -44,7 +44,7 @@ class BlogsContainer extends Component {
         :
           null
       }
-      {this.state.postData.map((data, idx)=> <BlogThumbnail key={idx} idx={idx} {...data} openPost={this.openPost} />)}
+      {this.state.postData.map((data, idx)=> <BlogThumbnail key={"BLOG_THUMBNAIL" + data.slug} idx={idx} {...data} openPost={this.openPost} />)}
       </div>
     );
   }
