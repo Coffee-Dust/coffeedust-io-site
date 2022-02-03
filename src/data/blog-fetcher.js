@@ -14,3 +14,17 @@ export async function gql(query, variables = {}) {
   return data.json();
 }
 
+const QUERY_ALL_BLOGS = `
+query GetUserArticles($page: Int!) {
+    user(username: "coffeedust") {
+        publication {
+            posts(page: $page) {
+                title
+                brief
+                coverImage
+                slug
+            }
+        }
+    }
+}
+`
