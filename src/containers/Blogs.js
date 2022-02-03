@@ -7,7 +7,6 @@ import { getAllBlogPostData } from '../data/blog-fetcher'
 class BlogsContainer extends Component {
 
   state = {
-    posts: [],
     postData: [],
     openedPostData: false,
     prevScrollPos: false
