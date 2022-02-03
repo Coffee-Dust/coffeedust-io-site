@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import '../assets/css/Blogs.css'
 import BlogPost from '../components/BlogPost'
 import BlogThumbnail from '../components/BlogThumbnail';
+import { getAllBlogPostData } from '../data/blog-fetcher'
 
 class BlogsContainer extends Component {
 
   state = {
-    posts: [],
     postData: [],
     openedPostData: false,
     prevScrollPos: false
@@ -27,23 +27,14 @@ class BlogsContainer extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@coffeedust").then(r=>r.json())
-    .then(data=> {
-      const posts = data.items.map((blogData, idx)=> <BlogPost {...blogData} key={idx} />)
-      this.setState(s=> ({...s, posts: posts, postData: data.items}))
-    })
+    getAllBlogPostData(postsOnPage=> this.setState(s=> ({...s, postData: postsOnPage})))
   }
 
   render() {
     return (
       <div className="Blogs-container">
-        {
-        (this.state.openedPostData) ?
-          <BlogPost {...this.state.openedPostData} closePost={this.closePost}/>
-        :
-          null
-      }
-      {this.state.postData.map((data, idx)=> <BlogThumbnail key={idx} idx={idx} {...data} openPost={this.openPost} />)}
+        { this.state.openedPostData && <BlogPost {...this.state.openedPostData} closePost={this.closePost}/> }
+        {this.state.postData.map((data, idx)=> <BlogThumbnail key={"BLOG_THUMBNAIL" + data.slug} idx={idx} {...data} openPost={this.openPost} />)}
       </div>
     );
   }

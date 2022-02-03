@@ -1,26 +1,23 @@
 import React from 'react';
 
-function BlogThumbnail({idx, title, description, thumbnail, openPost, link}) {
+function BlogThumbnail({idx, title, brief, coverImage, openPost, slug}) {
   const descCharLimit = 69
-  // Removes HTML tags from description
-  description = description.slice(0, descCharLimit).split("")
-  .filter((v, i, a) => !(v === "<" || v === ">" || a[i - 1] === "<" || a[i + 1] === ">"))
-  .join("") + "..."
+  const briefDesc = brief.slice(0, descCharLimit) + '...'
 
-  const redirectToMedium = e=> {
-    window.location.href = link
+  const redirectToBlogSite = e=> {
+    window.location.href = `https://blog.dust.coffee/${slug}`
   }
 
   return (
     <div 
     id={idx}
     className="Blogs-thumbnail"
-    style={{ backgroundImage: `url(${thumbnail})`, "--animation-order": `${idx + 1}` }}
-    onClick={redirectToMedium}
+    style={{ backgroundImage: `url(${coverImage})`, "--animation-order": `${idx + 1}` }}
+    onClick={redirectToBlogSite}
     >
       <div className="info-wrapper">
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p>{briefDesc}</p>
       </div>
     </div>
   );
