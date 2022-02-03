@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BlogThumbnail({idx, title, description, thumbnail, openPost, link}) {
+function BlogThumbnail({idx, title, brief, coverImage, openPost, slug}) {
   const descCharLimit = 69
   // Removes HTML tags from description
   description = description.slice(0, descCharLimit).split("")
