@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BlogPost({title, content, thumbnail, closePost}) {
+function BlogPost({title, brief, coverImage, slug, content, closePost}) {
   return (
     <div className="Blogs-post blur-backdrop">
       <button className="close" onClick={closePost}>x</button>
