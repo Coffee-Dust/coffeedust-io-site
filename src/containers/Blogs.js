@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../assets/css/Blogs.css'
 import BlogPost from '../components/BlogPost'
 import BlogThumbnail from '../components/BlogThumbnail';
+import { getAllBlogPostData } from '../data/blog-fetcher'
 
 class BlogsContainer extends Component {
 
