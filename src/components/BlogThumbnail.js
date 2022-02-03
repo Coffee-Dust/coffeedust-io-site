@@ -2,10 +2,7 @@ import React from 'react';
 
 function BlogThumbnail({idx, title, brief, coverImage, openPost, slug}) {
   const descCharLimit = 69
-  // Removes HTML tags from description
-  description = description.slice(0, descCharLimit).split("")
-  .filter((v, i, a) => !(v === "<" || v === ">" || a[i - 1] === "<" || a[i + 1] === ">"))
-  .join("") + "..."
+  const briefDesc = brief.slice(0, descCharLimit) + '...'
 
   const redirectToMedium = e=> {
     window.location.href = link
