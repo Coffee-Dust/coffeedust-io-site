@@ -28,12 +28,13 @@ query GetUserArticles($page: Int!) {
     }
 }
 `
-export async function getAllBlogPostData() {
+export async function getAllBlogPostData(pageLoadCallback) {
   let blogData = []
   let pageNum = 0
   do {
     const data = await gql(QUERY_ALL_BLOGS, {page: pageNum})
     blogData = [...blogData, ...data.data.user.publication.posts]
+    pageLoadCallback(blogData)
     pageNum++
   } while (pageNum < 5)
   return blogData
