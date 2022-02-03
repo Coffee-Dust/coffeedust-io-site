@@ -4,8 +4,8 @@ function BlogThumbnail({idx, title, brief, coverImage, openPost, slug}) {
   const descCharLimit = 69
   const briefDesc = brief.slice(0, descCharLimit) + '...'
 
-  const redirectToMedium = e=> {
-    window.location.href = link
+  const redirectToBlogSite = e=> {
+    window.location.href = `https://blog.dust.coffee/${slug}`
   }
 
   return (
