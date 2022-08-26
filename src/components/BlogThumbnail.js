@@ -5,7 +5,7 @@ function BlogThumbnail({idx, title, brief, coverImage, openPost, slug}) {
   const briefDesc = brief.slice(0, descCharLimit) + '...'
 
   const redirectToBlogSite = e=> {
-    window.location.href = `https://blog.dust.coffee/${slug}`
+    window.location.href = `https://blog.virtually.coffee/${slug}`
   }
 
   return (
