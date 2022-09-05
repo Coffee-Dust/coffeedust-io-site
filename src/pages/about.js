@@ -24,12 +24,12 @@ function AboutPage() {
           I love to meet new people, solve problems and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
         </p>
 
-        <div id="diploma">
+        {/* <div id="diploma">
           <figure>
             <img src={require("./../assets/diploma.png").default} alt="My Certificate of Completion" />
             <figcaption>I'm also a graduate from <a href="https://flatironschool.com/about-flatiron-school/" target="_blank" rel="noreferrer">Flatiron School</a></figcaption>
           </figure>
-        </div>
+        </div> */}
         
         <div className="calendar-container">
           <p><em>But don't just take my word for it, checkout my GitHub activity below!</em></p>
