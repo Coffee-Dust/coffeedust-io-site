@@ -40,9 +40,9 @@ function AboutPage() {
         <section className="knawledge background-blur">
           <h2>My knowledge stack</h2>
           <div className="icon-list langs">
-            <CodeIcon id="ruby" />
-            <CodeIcon id="js"/>
             <CodeIcon id="swift" />
+            <CodeIcon id="js"/>
+            <CodeIcon id="ruby" />
           </div>
           <div className="icon-list techs">
             <CodeIcon id="rails" />
