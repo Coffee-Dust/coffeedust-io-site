@@ -20,8 +20,9 @@ function AboutPage() {
         <img className="my-face" alt="My face" src={require(`./../assets/my_face.jpg`).default}/>
         <h2>Hi! <br/><br/> I'm John Dust,</h2>
         <p className="intro">
-          A positive, fun and helpful <em>Full Stack Web and iOS Developer</em> with a passion for <em>coffee</em> ☕️ and nearly 4 years of independent development experience. <br/>
-          I love to meet new people, solve problems and <em>write innovative code</em> that is semantic, organized and efficient.<br/>
+          A self-taught, fun and detail oriented <em>Software Engineer</em> that has a love for helping others, oh and also for <em>coffee</em> ☕️!<br/>
+          I have been programming for over <em>6 years</em> combined and I am passionate about writing reusable, semantic and organized code.<br/>
+          I am also the creator of the iOS mobile game,<br/> <em><a href="https://virtually.coffee/virtually8bit">Virtually 8-bit!</a></em>
         </p>
 
         {/* <div id="diploma">
