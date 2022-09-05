@@ -40,14 +40,14 @@ const projectInfo = {
     "CLI": true,
     "desc": (
       <article>
-        This project is a full SQL-less command-line interface database program. Why is it SQL-less? Up until this point, I had no knowledge of Structured Query Languages or how databases worked. What I did know, was how to create ruby objects in memory and create relationships between them.<br/>
-        So this project is a full inventory software that can Create, Read, Update, and Delete data, as well as organize and categorize that data.
+        This project is a full SQL-less command-line interface database program. <br/>
+        It is a full inventory software that can Create, Read, Update, and Delete data, as well as organize and categorize that data.
         <h4>Highlights</h4>
         <ul>
           <li>Intuitive command line interface.</li>
           <li>It converts those ruby objects into a JSON format and saves them to a JSON file.</li>
-          <li>It also scrapes data from Publix to seed the database.</li>
           <li>It can organize items into departments, categories and sub-categories.</li>
+          <li>It also scrapes data from Publix to seed the database with sample data.</li>
         </ul>
       </article>
     ),
