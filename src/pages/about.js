@@ -5,7 +5,7 @@ import stackKnawledgeDesc from '../data/knawledge_stack_desc'
 import GitHubCalendar from 'github-calendar'
 
 function AboutPage() {
-  const [displayedKnawledgeID, setDisplayedKnawledgeID] = React.useState("ruby");
+  const [displayedKnawledgeID, setDisplayedKnawledgeID] = React.useState("swift");
   const displayKnawledge = event=> setDisplayedKnawledgeID(event.currentTarget.id)
 
   const CodeIcon = props=> (
