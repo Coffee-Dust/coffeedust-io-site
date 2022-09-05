@@ -18,7 +18,6 @@ const projectInfo = {
         <li>This interface included virtual buttons and plus pad used to interact with what is displayed on the screen</li>
         <li>Allowed for multiple games to be loaded on there</li>
         <li>It had a store that allowed users to purchase in-game currency or watch an ad to earn it</li>
-        (made $5 from in-app purchases during the time it was on the app store 😮)
       </ul>
       <h4>Meteoroids Features</h4>
       This game was modeled after classic arcade space shooter games.
