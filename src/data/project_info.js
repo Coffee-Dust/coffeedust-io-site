@@ -143,7 +143,7 @@ const projectInfo = {
           
           <p>
             Published iOS app/game that featured a classic gameboy-like interface and allowed users to play multiple 8-bit style games.
-            Reengineered from the ground up, <em>Virtually 8-bit!</em> takes the concept (and some of the art) from my orginal ios game The 8-bit Master only it is 100% better in everyway.
+            {/* Reengineered from the ground up, <em>Virtually 8-bit!</em> takes the concept (and some of the art) from my orginal ios game The 8-bit Master only it is 100% better in everyway. */}
           </p>
           <h4>Some Highlights</h4>
           <ul>
