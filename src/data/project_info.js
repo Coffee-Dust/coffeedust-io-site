@@ -34,7 +34,7 @@ const projectInfo = {
     },
     "inventory_manager": {
     "id": "inventory_manager",
-    "name": "Inventory Manager - My Ruby Project",
+    "name": "Inventory Manager",
     "repo": "https://github.com/Coffee-Dust/Inventory-Manager",
     "demo": true,
     "CLI": true,
@@ -57,7 +57,7 @@ const projectInfo = {
     },
     "local_coffeeshop": {
     "id": "local_coffeeshop",
-    "name": "The Local Coffeeshop - My Sinatra Project",
+    "name": "The Local Coffeeshop",
     "repo": "https://github.com/Coffee-Dust/the-local-coffeeshop",
     "demo": true,
     "desc": (
@@ -81,7 +81,7 @@ const projectInfo = {
 
     "my_coffee_table": {
     "id": "my_coffee_table",
-    "name": "My Coffee Table - My Javascript/Rails Project",
+    "name": "My Coffee Table",
     "repo": "https://github.com/Coffee-Dust/My-Coffee-Table",
     "demo": true,
     "desc": (
@@ -105,7 +105,7 @@ const projectInfo = {
     },
     "coffee_beans": {
     "id": "coffee_beans",
-    "name": "Coffee Beans: Social - My React/Rails Project",
+    "name": "Coffee Beans - Social Network",
     "repo": "https://github.com/Coffee-Dust/React-Coffee-Beans",
     "demo": true,
     "desc": (
@@ -127,7 +127,7 @@ const projectInfo = {
     },
     "virtually_8bit": {
       "id": "virtually_8bit",
-      "name": "Virtually 8-bit! iOS App",
+      "name": "Virtually 8-bit!",
       "repo": "",
       "demo": false,
       "desc": (
