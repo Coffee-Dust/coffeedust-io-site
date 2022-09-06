@@ -154,7 +154,7 @@ const projectInfo = {
       ),
       "langs": ["Swift"],
       "techs": ["Spritekit"],
-      "screenshotCaptions": []
+      "screenshotCaptions": ["The 'Game Menu' selection menu with Meteoroids currently selected.", "Playing Meteoroids game while 'Very Strong Mint!' powerup is active.", "Playing the game version v0.2(Early access) Bit-Breaker.", "View of Meteoroids' Powerups Shop menu, with 'Very Strong Mint!' selected.", "View of Meteoroids' Upgrades menu shop with 'Space-Gold Value' selected.", "The 'tutorial', which acts as a paper book called 'Quick Start Guide'"]
     }
   }
 }
