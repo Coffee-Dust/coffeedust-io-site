@@ -26,8 +26,8 @@ function NavMenu(props) {
       <div className="Mobile-open-menu" onClick={props.toggleMenu}><span>menu</span></div>
       <nav ref={navRef}>
         <NavLink to="/about" onClick={onNavClick}>about me</NavLink>
-        <NavLink to="/blog" onClick={onNavClick}>blog</NavLink>
         <NavLink to="/projects" onClick={onNavClick}>projects</NavLink>
+        <NavLink to="/blog" onClick={onNavClick}>blog</NavLink>
         <NavLink to="/resume" onClick={onNavClick}>resumé</NavLink>
       </nav>
       <SocialLinks />
