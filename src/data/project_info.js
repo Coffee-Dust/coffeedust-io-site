@@ -9,7 +9,7 @@ const projectInfo = {
     "demo": false,
     "desc": (
     <article>
-      This was my first official programming endeavor. After reading through a few books about Swift and watching some YouTube tutorials, I finally got a good enough feel for the the Apple Swift language and went to work designing this game!<br/>
+      This was my first official programming endeavor. After reading through books and watching many tutorials about Swift, I finally got a good enough feel for the the Apple Swift language and went to work designing this game!<br/>
       I designed all of the graphics and art, even the soundtrack. <br/>
       It featured 1 playable game on released version, Meteoroids.<br/>
       <h4>Highlights of the 8-bit Master</h4>
