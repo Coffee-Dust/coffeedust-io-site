@@ -9,7 +9,7 @@ const projectInfo = {
     "demo": false,
     "desc": (
     <article>
-      This was my first official programming endeavor. After reading through books and watching many tutorials about Swift, I finally got a good enough feel for the the Apple Swift language and went to work designing this game!<br/>
+      This was my first official programming endeavor. After reading through books and watching many tutorials about Swift, I finally got a good enough feel for the Apple Swift language and went to work designing this game!<br/>
       I designed all of the graphics and art, even the soundtrack. <br/>
       It featured 1 playable game on released version, Meteoroids.<br/>
       <h4>Highlights of the 8-bit Master</h4>
@@ -23,7 +23,7 @@ const projectInfo = {
       This game was modeled after classic arcade space shooter games.
       <ul>
         <li>It allowed the user to earn gold by shooting asteroids in space</li>
-        <li>use that gold to purchase power-ups and use those power-ups during gameplay</li>
+        <li>Use that gold to purchase power-ups and use those power-ups during gameplay</li>
         <li>Let users make various upgrades to their gameplay over time</li>
       </ul>
     </article>
