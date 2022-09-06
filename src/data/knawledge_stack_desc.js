@@ -38,9 +38,14 @@ const stackKnawledgeDesc = {
   "swift": (
   <article>
     <h2>Swift</h2>
+    <p>
+      Being one of my favorite languages, Swift was one of the first real programming language I learned.<br/>
+      I started learning this languages shortly after it was realeased by apple around 2015. In fact I really starting diving deep into iOS development right out of high school.
+    </p>
     <div className="Page-about-desc-project-icons">
       <h4>Projects that used this language.</h4>
-      <a href="/projects/8bit_master"><img src={require(`./../assets/project_icons/8bit_master_icon.png`).default} alt="" /></a>
+      <a href="/projects/virtually_8bit"><img src={require(`./../assets/project_icons/virtually_8bit_icon.png`).default} alt="" /></a>
+      {/* <a href="/projects/8bit_master"><img src={require(`./../assets/project_icons/8bit_master_icon.png`).default} alt="" /></a> */}
     </div>
   </article>
   ),
