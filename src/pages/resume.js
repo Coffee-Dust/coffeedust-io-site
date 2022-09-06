@@ -16,7 +16,7 @@ function ResumePage() {
 
         <h1>John (Jonathan) Dust</h1>
         <section id="contact">
-          Knoxville, TN | <a href="tel:+8655675032">865-567-5032</a> | <a href="mailto:job.opp@john.virtually.coffee">job.opp@john.virtually.coffee</a> <br/>
+          Knoxville, TN | <a href="tel:+8655675032">865-567-5032</a> | <a href="mailto:john.virtually.coffee@gmail.com">john.virtually.coffee@gmail.com</a> <br/>
           Personal Website: john.virtually.coffee | <a href="https://github.com/Coffee-Dust">GitHub</a> | <a href="https://www.linkedin.com/in/coffeedust/">LinkedIn</a> <br/>
         </section>
 
@@ -24,9 +24,9 @@ function ResumePage() {
           <h2>Software Engineer</h2>
           <hr/>
           <p>
-            Self-taught, helpful, fun and detail oriented Software Engineer that has been programming for over 6 years combined.<br/>
-            Loves to be helpful and work with people hands on. Is passionate about writing reusable, semantic and organized code.<br/>
-            Creator of the iOS mobile game, <em>Virtually 8-bit!</em>
+            Self-taught, helpful, fun and detail-oriented Software Engineer that has been programming for over 6 years combined.<br/>
+            Loves to help others, and is passionate about writing reusable, semantic and organized code.<br/>
+            Creator of the iOS mobile game, <a href="//download.virtually8bit.virtually.coffee" target="_blank"><em>Virtually 8-bit!</em></a>
           </p>
         </section>
 
@@ -34,8 +34,8 @@ function ResumePage() {
           <h2>TECHNICAL SKILLS</h2>
           <hr/>
           <p>
-            <strong>Languages:</strong> Swift, TypeScript/JavaScript, Ruby.<br/>
-            <strong>Technologies:</strong> SpriteKit, UIKit, CloudKit, React, Ruby on Rails.
+            <strong>Programming Languages:</strong> Swift, TypeScript/JavaScript, Ruby.<br/>
+            <strong>Technologies & Frameworks:</strong> SpriteKit, UIKit, CloudKit, React, Ruby on Rails.
           </p>
         </section>
 
@@ -46,13 +46,13 @@ function ResumePage() {
           <h4>Virtually 8-bit! - <a href="//download.virtually8bit.virtually.coffee">App Store</a> | <a href="https://john.virtually.coffee/projects/virtually_8bit">More info</a></h4>
           <p>Published iOS app/game that features a classic gameboy-like interface and allows users to play multiple 8-bit style games.</p>
           <ul>
-            <li>Engineered in a way that separates the Console’s(app’s) ‘hardware’ and ‘software’ systems. That allows for better code management and feature growth. I also built it in a way that allows code to be reused in multiple different games.</li>
-            <li>Currently holds 2 playable games inside of it(more on the way), Meteoroids and Bit-Breaker. Meteoroids is an arcade space shooter that features power-ups and player upgradable abilities. Bit-Breaker is a breakout style game with randomly generated levels.</li>
-            <li>Features SpriteKit as the physics engine, UIKit for handling ‘virtual-analog’ button touch events as well as all of the console’s UI layout, and CloudKit for persisting user data when connected online, otherwise stores data locally until it can be synced.</li>
+            <li>Engineered in a way that separates the Console’s(app) ‘hardware’ and ‘software’ components, which allows for better code management and feature growth. It’s also architected in a way that allows for code reusability in multiple different games and system menu scenes.</li>
+            <li>Currently, it holds 2 playable games inside of it. The 1st, Meteoroids, is an arcade-style space-shooter that features power-ups and player upgradable abilities. The 2nd game, Bit-Breaker, is a breakout-style game with randomly generated levels.</li>
+            <li>Features SpriteKit as the physics engine, UIKit for handling ‘virtual-analog’ button touch events, as well as all of the app’s UI layout. Storage and data persistence is handled with CloudKit when connected online; otherwise, it securely saves data locally until it can be synced.</li>
           </ul>
 
           <h4>My Coffee Table - <a href="https://github.com/Coffee-Dust/My-Coffee-Table">Github</a> | <a href="https://john.virtually.coffee/projects/my_coffee_table">Demo</a></h4>
-          <p>A single page web application that gives users a space (coffee table) to add, move around and customize elements such as: pictures, web-links, embedded content, text, notes and more.</p>
+          <p>A SPA(single-page web application) that gives users a coffee-table(desktop space) to add, move around and customize elements such as pictures, web-links, embedded content, text, notes and more.</p>
           <ul>
             <li>Coded the frontend in vanilla ES6 Javascript in an Object Oriented paradigm for clear and semantic code organization.</li>
             <li>Designed backend to be a REST API in Ruby on Rails with ActiveRecord responsible for persisting and querying data. Modeled that relational database with polymorphic associations to reduce code repetition and tested with rspec.</li>
@@ -72,7 +72,7 @@ function ResumePage() {
           </div>
           <ul>
             <li>Designed, developed and published <a href="//download.virtually8bit.virtually.coffee">Virtually 8-bit!</a> A full iOS game built in Swift, UIKit, SpriteKit and CloudKit.</li>
-            <li>Worked with multiple different frameworks and technologies, both open source and from Apple, such as CocoaPods and the ones mentioned above.</li>
+            <li>Worked with multiple different frameworks and technologies, both from Apple and open source, such as CocoaPods, DigitalTurbine and more.</li>
           </ul>
 
           <div className="split">
@@ -93,8 +93,8 @@ function ResumePage() {
           </div>
           <ul>
             <li>Developed both frontend and backend features for clients on a handful of web applications and projects.</li>
-            <li>Programmed and used many technologies such as React, SQL and Ruby on Rails.</li>
-            <li>Built 6 major public projects for my portfolio (including my website and project demo server). Most being Single Page Applications or Monolithic Web Apps. View & use them <a href="/projects">here</a>.</li>
+            <li>Programmed and used many technologies, such as React, SQL and Ruby on Rails.</li>
+            <li>Built 6 major public projects for my portfolio (including my website and project demo server). Most are Single Page Applications or Monolithic Web Apps. View & use them <a href="/projects">here</a>.</li>
           </ul>
 
           <div className="split">
@@ -105,7 +105,7 @@ function ResumePage() {
           </div>
           <ul>
             <li>Built a handful of smaller applications for iPhone, iPad and tvOS.</li>
-            <li>Created and published the iOS game, <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100" target="_blank"><em>The 8-bit Master</em></a>. Developed using Swift language, and designed all of the UI/UX, graphics, 8-bit artwork and music. It received a total of 5k+ app unit downloads with an average review rating of 4.5 stars overall.</li>
+            <li>Created and published the iOS game, <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100" target="_blank"><em>The 8-bit Master</em></a>. Developed using the Swift language, and designed all of the UI/UX, graphics, 8-bit artwork and music. It received a total of 5k+ app unit downloads with an average review rating of 4.5 stars overall.</li>
           </ul>
 
         </section>
