@@ -61,13 +61,14 @@ const projectInfo = {
     "demo": true,
     "desc": (
       <article>
-        This is a monolithic web application and was built in the <a href="http://sinatrarb.com" target="_blank">Sinatra Domain Specific Language</a>, which is basically a ‘less magical’ Rails framework.<br/>
+        This is a monolithic web application and was built in the Sinatra Domain Specific Language, which is basically a ‘less magical’ Rails framework.<br/>
         (please forgive the lack of styling 😬)
-        <h4>The Local Coffeeshop web app allows users to view:</h4>
+        <h4>The Local Coffeeshop web app allows users to:</h4>
         <ul>
-          <li>Local coffeeshops in the area</li>
-          <li>Review those coffeeshops</li>
-          <li>View what drinks are the best</li>
+          <li>View local coffeeshops in the area.</li>
+          <li>Review those coffeeshops.</li>
+          <li>View what drinks are the best.</li>
+          <li>Add their favorite drink.</li>
         </ul>
         You can also keep track of your favorite coffeeshops, look at, revise, or delete your reviews!
       </article>
