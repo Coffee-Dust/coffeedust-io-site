@@ -39,7 +39,7 @@ const stackKnawledgeDesc = {
   <article>
     <h2>Swift</h2>
     <p>
-      Being one of my favorite languages, Swift was one of the first real programming language I learned.<br/>
+      I love Swift! In fact, I'm an early adopter of it, since it's offical release. It quickly became one of my favorite languages, even with the memory leaks that you always have to keep an eye for.(ARC's are cool!)<br/>
       I started learning this languages shortly after it was realeased by apple around 2015. In fact I really starting diving deep into iOS development right out of high school.
     </p>
     <div className="Page-about-desc-project-icons">
