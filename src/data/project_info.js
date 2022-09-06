@@ -73,7 +73,8 @@ const projectInfo = {
       </article>
     ),
     "langs": ["Ruby"],
-    "techs": ["Sinatra", "ActiveRecord", "SQL", "REST"]
+    "techs": ["Sinatra", "ActiveRecord", "SQL", "REST"],
+    "screenshotCaptions": ["Viewing a local coffee shop with reviews.", "The user's homepage showing coffee shops in the area along with their favorites."]
     },
 
     "my_coffee_table": {
