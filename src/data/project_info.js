@@ -149,7 +149,9 @@ const projectInfo = {
           <h4>Some Highlights</h4>
           <ul>
             <li>Engineered in a way that separates the Console's(app's) 'hardware' and 'software' systems. That allows for better code management and growth. I also built it in a way that allows code to be reused in multiple different games.</li>
-            <li>Currently holds 2 playable games inside of it(more on the way), Meteoroids and Bit-Breaker. Meteoroids is an arcade space shooter that features power-ups and player upgradable abilities. Bit-Breaker is a breakout style game with randomly generated levels.</li>
+            <li>Currently holds 2 playable games inside of it(more on the way), Meteoroids and Bit-Breaker.</li>
+            <li>Meteoroids is an arcade space shooter that features power-ups and player upgradable abilities. </li>
+            <li>Bit-Breaker is a breakout style game with randomly generated levels(as of version bbv0.2).</li>
             <li>It features SpriteKit as the physics engine, UIKit for handling 'virtual-analog' button touch events as well as all of the console's UI layout, and CloudKit for persisting user data when connected online, otherwise stores data locally until it can be synced.</li>
           </ul>
         </article>
