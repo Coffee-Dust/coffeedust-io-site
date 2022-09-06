@@ -108,9 +108,8 @@ const projectInfo = {
     "demo": true,
     "desc": (
       <article>
-        Coffee-Beans is basically a Twitter clone, with the original idea being being, only allowing posts about coffee
-        This project idea was initially my Rails portfolio project(the repo can be found <a href="https://github.com/Coffee-Dust/Coffee-Beans" target="_blank" rel="noreferrer">here</a>), but I later decided to make a fork of this domain model and use it for my React portfolio project.<br/>
-        On the rails side of things, I had to turn the domain model of the database into a more API friendly version. For the front end, as my original rails project was built using just ERB(embeded ruby) files, and no Javascript. I had to start from scratch on that front. <br/>
+        A twitter clone where tweets are coffee beans. Users can share pictures, stories, comment on posts and react to both comments and posts alike.<br/>
+        This project was initially created as a monolithic web server in Ruby on Rails(the repo can be found <a href="https://github.com/Coffee-Dust/Coffee-Beans" target="_blank" rel="noreferrer">here</a>), but I later decided to make a fork of this domain model(basically just the database) and build it as a single page application in the React framework, with the backend as a REST API server.<br/>
         <h4>Some Highlights</h4>
         <ul>
           <li>Post "beans" and view posts from different users</li>
