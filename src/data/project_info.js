@@ -40,14 +40,15 @@ const projectInfo = {
     "CLI": true,
     "desc": (
       <article>
-        This project is a full SQL-less command-line interface database program. <br/>
-        It is a full inventory software that can Create, Read, Update, and Delete data, as well as organize and categorize that data.
+        This command-line application is a full inventory software that can Create, Read, Update, and Delete data, as well as organize and categorize that data. It will also keep track of the quanitity of items you add and let you know what items are low and need to be 'ordered'.<br />
+        This project is a full SQL-less command-line interface database program that persists data in a JSON file.
         <h4>Highlights</h4>
         <ul>
           <li>Intuitive command line interface.</li>
-          <li>It converts those ruby objects into a JSON format and saves them to a JSON file.</li>
-          <li>It can organize items into departments, categories and sub-categories.</li>
-          <li>It also scrapes data from Publix to seed the database with sample data.</li>
+          <li>It converts ruby objects into a JSON format and writes them to the JSON file.</li>
+          <li>Organize items into departments, categories and sub-categories.</li>
+          <li>Allows users to keep track of quantity of items and add them to 'orders'.</li>
+          <li>Will show users which items are low in inventory and suggest adding them to an upcoming 'order'.</li>
         </ul>
       </article>
     ),
