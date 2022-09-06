@@ -121,6 +121,40 @@ const projectInfo = {
     "langs": [],
     "techs": [],
     "screenshotCaptions": ["Bean-feed page.", "Viewing a bean fullscreen"]
+    },
+    "virtually_8bit": {
+      "id": "virtually_8bit",
+      "name": "Virtually 8-bit! iOS App",
+      "repo": "",
+      "demo": false,
+      "desc": (
+        <article>
+          <a href="https://virtually.coffee/virtually8bit" target="_blank" rel="noreferrer" style={{marginRight: 10}}>
+            <button style={{height: 30, backgroundColor: "antiquewhite", padding: "1px 6px 1px 6px", borderRadius: 10, textAlign: 'center'}}>
+              <img src={VirtCoffLogo} style={{height: "100%", verticalAlign: "middle"}}/> <span style={{fontSize: "1.2em", fontFamily: "'Souce-Code-Pro', monospace", verticalAlign: "middle"}}> Promo Page</span>
+            </button>
+          </a>
+          <a href="https://download.virtually8bit.virtually.coffee/" target="_blank" rel="noreferrer">
+            <button style={{height: 30, backgroundColor: "antiquewhite", padding: "1px 6px 1px 6px", borderRadius: 10, textAlign: 'center'}}>
+              <span style={{fontSize: '1.8em', verticalAlign: "middle"}}></span> <span style={{fontSize: "1.2em", fontFamily: "'Souce-Code-Pro', monospace", verticalAlign: "middle"}}> App Store Page</span>
+            </button>
+          </a>
+          
+          <p>
+            Published iOS app/game that featured a classic gameboy-like interface and allowed users to play multiple 8-bit style games.
+            Reengineered from the ground up, <em>Virtually 8-bit!</em> takes the concept (and some of the art) from my orginal ios game The 8-bit Master only it is 100% better in everyway.
+          </p>
+          <h4>Some Highlights</h4>
+          <ul>
+            <li>Engineered in a way that separates the Console's(app's) 'hardware' and 'software' systems. That allows for better code management and growth. I also built it in a way that allows code to be reused in multiple different games.</li>
+            <li>Currently holds 2 playable games inside of it(more on the way), Meteoroids and Bit-Breaker. Meteoroids is an arcade space shooter that features power-ups and player upgradable abilities. Bit-Breaker is a breakout style game with randomly generated levels.</li>
+            <li>It features SpriteKit as the physics engine, UIKit for handling 'virtual-analog' button touch events as well as all of the console's UI layout, and CloudKit for persisting user data when connected online, otherwise stores data locally until it can be synced.</li>
+          </ul>
+        </article>
+      ),
+      "langs": ["Swift"],
+      "techs": ["Spritekit"],
+      "screenshotCaptions": []
     }
   }
 }
