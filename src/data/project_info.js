@@ -99,7 +99,7 @@ const projectInfo = {
     ),
     "langs": [],
     "techs": [],
-    "screenshotCaptions": ["My personal coffee table to hold my music stations"]
+    "screenshotCaptions": ["My personal 'Coffee Table' to hold my programming music(a lot of lo-fi and chill songs) and that vibin' cat GIF."]
     },
     "coffee_beans": {
     "id": "coffee_beans",
