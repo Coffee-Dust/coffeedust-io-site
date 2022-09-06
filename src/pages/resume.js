@@ -14,77 +14,98 @@ function ResumePage() {
 
       <article className="resume-wrapper">
 
-        <h1>John Dust</h1>
+        <h1>John (Jonathan) Dust</h1>
         <section id="contact">
-          Knoxville, TN & Willing to relocate | <a href="tel:+8655675032">865-567-5032</a> | <a href="mailto:coffeedust.io@gmail.com">coffeedust.io@gmail.com</a> <br/>
+          Knoxville, TN | <a href="tel:+8655675032">865-567-5032</a> | <a href="mailto:job.opp@john.virtually.coffee">job.opp@john.virtually.coffee</a> <br/>
           Personal Website: john.virtually.coffee | <a href="https://github.com/Coffee-Dust">GitHub</a> | <a href="https://www.linkedin.com/in/coffeedust/">LinkedIn</a> <br/>
         </section>
 
         <section id="intro">
-          <h2>Full Stack Software Engineer</h2>
+          <h2>Software Engineer</h2>
           <hr/>
-          <p>Positive, fun and helpful Full Stack Web and iOS Developer with 5 years of part-time independent experience. <br/>Self-taught developer with a passion for solving problems and meeting new people. <br/>Writes innovative code that is semantic, organized and efficient. Always thinks ahead to figure out the best, most scalable and efficient solution to a problem. Desires to continue to learn, grow and test skills and knowledge.</p>
+          <p>
+            Self-taught, helpful, fun and detail oriented Software Engineer that has been programming for over 6 years combined.<br/>
+            Loves to be helpful and work with people hands on. Is passionate about writing reusable, semantic and organized code.<br/>
+            Creator of the iOS mobile game, <em>Virtually 8-bit!</em>
+          </p>
         </section>
 
         <section id="skills">
           <h2>TECHNICAL SKILLS</h2>
           <hr/>
-          <p>Javascript ES6, Ruby, Swift, SQL, Ruby on Rails, React, Sinatra, Node JS, Express JS, SequelizeJS, Swift-SpriteKit, REST, MVC Architecture, Database Modeling, Git/Github, Test Driven Development</p>
+          <p>
+            <strong>Languages:</strong> Swift, TypeScript/JavaScript, Ruby.<br/>
+            <strong>Technologies:</strong> SpriteKit, UIKit, CloudKit, React, Ruby on Rails.
+          </p>
         </section>
 
         <section id="projects">
           <h2>TECHNICAL PROJECTS</h2>
           <hr/>
 
-          <h4>Coffee-Beans Social Media - <a href="https://github.com/Coffee-Dust/React-Coffee-Beans">Github</a> | <a href="https://john.virtually.coffee/projects/coffee_beans">Demo</a></h4>
-          <p>A twitter clone where tweets are coffee beans. Users can share pictures, stories, comment on posts and react to both comments and posts alike.</p>
+          <h4>Virtually 8-bit! - <a href="//download.virtually8bit.virtually.coffee">App Store</a> | <a href="https://john.virtually.coffee/projects/virtually_8bit">More info</a></h4>
+          <p>Published iOS app/game that features a classic gameboy-like interface and allows users to play multiple 8-bit style games.</p>
           <ul>
-            <li>Built frontend in the React framework with Redux state management pattern.</li>
-            <li>Used Redux-Thunk for async data retrieval and state updating.</li>
-            <li>Programmed the backend database server in Ruby on Rails using SQLite3 and ActiveRecord with ActiveStorage to
-            persist user submitted media.</li>
+            <li>Engineered in a way that separates the Console’s(app’s) ‘hardware’ and ‘software’ systems. That allows for better code management and feature growth. I also built it in a way that allows code to be reused in multiple different games.</li>
+            <li>Currently holds 2 playable games inside of it(more on the way), Meteoroids and Bit-Breaker. Meteoroids is an arcade space shooter that features power-ups and player upgradable abilities. Bit-Breaker is a breakout style game with randomly generated levels.</li>
+            <li>Features SpriteKit as the physics engine, UIKit for handling ‘virtual-analog’ button touch events as well as all of the console’s UI layout, and CloudKit for persisting user data when connected online, otherwise stores data locally until it can be synced.</li>
           </ul>
 
           <h4>My Coffee Table - <a href="https://github.com/Coffee-Dust/My-Coffee-Table">Github</a> | <a href="https://john.virtually.coffee/projects/my_coffee_table">Demo</a></h4>
-          <p>A single page web application that gives users a space (coffee table) to add, move around and customize pictures, weblinks, text, notes etc.</p>
+          <p>A single page web application that gives users a space (coffee table) to add, move around and customize elements such as: pictures, web-links, embedded content, text, notes and more.</p>
           <ul>
-            <li>Coded the frontend in vanilla ES6 Javascript in an Object Oriented JS paradigm for clear and semantic code organization.</li>
-            <li>Designed backend server on Ruby on Rails framework with ActiveRecord responsible for returning and persisting data.</li>
-            <li>Modeled out the relational database schema with polymorphic models to reduce code repetition.</li>
+            <li>Coded the frontend in vanilla ES6 Javascript in an Object Oriented paradigm for clear and semantic code organization.</li>
+            <li>Designed backend to be a REST API in Ruby on Rails with ActiveRecord responsible for persisting and querying data. Modeled that relational database with polymorphic associations to reduce code repetition and tested with rspec.</li>
           </ul>
 
-          <h4>The 8-bit Master - <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100">App Store</a> | <a href="https://john.virtually.coffee/projects/8bit_master">More info</a></h4>
-          <p>Published iOS Game that featured a classic gameboy console interface and allowed users to play multiple 8-bit style games.</p>
-          <ul>
-            <li>Received a total of 5k+ app unit downloads along with many reviews internationally with an average 4.5 stars overall.</li>
-            <li>Developed using Swift language & Spritekit framework, and designed all of the UI/UX, graphics, 8-bit artwork and music.</li>
-            <li>Created ability for users to purchase game currency with in-app purchases along with using AdColony SDK for interstitial ads.</li>
-          </ul>
         </section>
         
         <section id="exp">
           <h2>EXPERIENCE</h2>
           <hr/>
+
           <div className="split">
-            <h4>Software Engineer</h4> <span>Knoxville, TN (Remote)</span>
+            <h4>iOS Software Engineer</h4> <span>Knoxville, TN</span>
           </div>
           <div className="split">
-            <span className="desc">Independent - Part-Time</span> <span>10/2016 - Present</span>
+            <span className="desc">Virtually.Coffee - Full Time</span> <span>09/2021 - Present</span>
           </div>
           <ul>
-            <li>Built and developed applications for web and iOS in technologies such as Ruby on Rails, React, Swift.</li>
-            <li>Maintains and develops both frontend and backend features for clients on a handful of web applications.</li>
-            <li>Developed The 8-bit Master iOS game and published it to the App Store.</li>
+            <li>Designed, developed and published <a href="//download.virtually8bit.virtually.coffee">Virtually 8-bit!</a> A full iOS game built in Swift, UIKit, SpriteKit and CloudKit.</li>
+            <li>Worked with multiple different frameworks and technologies, both open source and from Apple, such as CocoaPods and the ones mentioned above.</li>
           </ul>
 
           <div className="split">
-            <h4>Lead In-Home Tech Expert</h4> <span>Knoxville, TN</span>
+            <h4>Lead Part-Time In-Home Tech Expert</h4> <span>Knoxville, TN</span>
           </div>
           <div className="split">
-            <span className="desc">Asurion - Part-Time</span> <span>10/2020 - 01/2022</span>
+            <span className="desc">Asurion - Part Time</span> <span>10/2020 - 01/2022</span>
           </div>
           <ul>
-            <li>Providing hands-on technical support and customer service to 40+ clients per month by delivering and setting up smartphones and troubleshooting technical issues. Consistently rated 5 stars across client experience, special mention for helpfulness, friendliness and technical knowledge.</li>
+            <li>Provided hands-on technical support and customer service to 40+ clients per month by delivering and setting up smartphones and troubleshooting technical issues. Consistently rated 5 stars across client experience, with special mention for helpfulness, friendliness and technical knowledge.</li>
+          </ul>
+
+          <div className="split">
+            <h4>Full Stack Software Engineer</h4> <span>Remote</span>
+          </div>
+          <div className="split">
+            <span className="desc">Independent - Part Time</span> <span>08/2017 - 09/2021</span>
+          </div>
+          <ul>
+            <li>Developed both frontend and backend features for clients on a handful of web applications and projects.</li>
+            <li>Programmed and used many technologies such as React, SQL and Ruby on Rails.</li>
+            <li>Built 6 major public projects for my portfolio (including my website and project demo server). Most being Single Page Applications or Monolithic Web Apps. View & use them <a href="/projects">here</a>.</li>
+          </ul>
+
+          <div className="split">
+            <h4>iOS Engineer in Learning</h4> <span>Knoxville, TN</span>
+          </div>
+          <div className="split">
+            <span className="desc">Independent - Full Time</span> <span>05/2016 - 07/2017</span>
+          </div>
+          <ul>
+            <li>Built a handful of smaller applications for iPhone, iPad and tvOS.</li>
+            <li>Created and published the iOS game, <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100" target="_blank"><em>The 8-bit Master</em></a>. Developed using Swift language, and designed all of the UI/UX, graphics, 8-bit artwork and music. It received a total of 5k+ app unit downloads with an average review rating of 4.5 stars overall.</li>
           </ul>
 
         </section>
@@ -92,25 +113,13 @@ function ResumePage() {
         <section id="knawledge">
           <h2>EDUCATION</h2>
           <hr/>
-          <div className="split">
-            <h4>Flatiron School Bootcamp</h4> <span>Remote</span>
-          </div>
-          <div className="split">
-            <span className="desc">Full Stack Web Development, Ruby on Rails and JavaScript Program</span>
-            <span>05/2021</span>
-          </div>
-          <ul>
-            <li>Built 5 major projects, 4 of which were full stack web apps, 2 single page applications. View them <a href="/projects">here</a>.</li>
-            <li>Collaborated with multiple stakeholders while working on projects.</li>
-            <li>Assisted students with troubleshooting and debugging.</li>
-          </ul>
 
           <div className="split">
             <h4>Penn Foster - High School</h4> <span>Knoxville, TN</span>
           </div>
           <br/>
           <div className="split">
-            <span className="desc">Electives in Computer Programming/Information Technology, 4.0 GPA</span> <span>07/2016</span>
+            <span className="desc">Electives in Computer Programming/Information Technology, 4.0 GPA</span> <span>2016</span>
           </div>
         </section>
       <br/>
