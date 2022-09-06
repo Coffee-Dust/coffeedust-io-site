@@ -5,13 +5,11 @@ const stackKnawledgeDesc = {
   <article>
     <h2>Ruby</h2>
     <p>
-      I learned this language during my curriculum at Flatiron School and it is probably the language I have used the most.<br/>
-      In fact, this would be the second programming language I learned, after Swift.(not counting html or css)<br/>
-      I do enjoy the simple syntax of the language, but I do actually prefer strongly-typed languages like Swift.<br/>
+      This is one of the initial programming languages I learned after Swift. I do enjoy the simple syntax of the language, however I prefer statically-typed languages.<br/>
       <br/>
       I've learned most of the ins and outs of this language, such as its method based approach to properties, and some more complicated things, like it's concurrent multi-threading system.<br/>
       <br/>
-      Almost every major project I've built uses Ruby in some way. However, the projects I have below were mostly made with just Ruby, no major Frameworks.
+      Most of the portfolio projects I've built, use Ruby in some way. However, the projects I have below were mostly made with just Ruby, no major Frameworks.
     </p>
     <div className="Page-about-desc-project-icons">
       <h4>Projects that used this language.</h4>
@@ -26,13 +24,9 @@ const stackKnawledgeDesc = {
     <h2>Javascript</h2>
     <p>
       This language was very different from the ones I had previously learned, but I quickly got the hang of it.<br/>
-      The features that I actually liked was the way functions and methods are considered "first class citizens".<br/>
-      I really enjoyed this functionality and quickly got used to using callbacks and where to use them.<br/>
-      Despite the prototype inheritence model which was quite different from things I previously had experience with, I was able to learn the ends and outs of Object Oriented programming in JS and how it was different than other languages.<br />
-      Although the history of this language is kind of a mess, the ES6 updates to it have made it really nice to use and going back to languages like ruby were a bit strange since I didn't have the ability to pass in methods like any other argument.
-    </p>
-    <p>
-      After my first all Javascript project, I really learned how to deal with it's quirkiness, and make use of it's features.
+      Despite the prototype inheritence model which was quite different from languages I previously experienced, I was able to feel a little bit at home with the Object Oriented programming it offered in ES6 (even though its just syntax sugar).<br/>
+      <br/>
+      It was kind of frustrating to write a good amount of code that seemed like it should work on paper, and then just get the end result of 'undefined', but thankfully with the invention and industry adoption of TypeScript, I am able to feel a lot more at home and comfortable with using this 'unique'(being nice) language called JavaScript.
     </p>
     <div className="Page-about-desc-project-icons">
       <h4>Projects that used this language.</h4>
