@@ -1,5 +1,5 @@
 import React from 'react'
-
+import VirtCoffLogo from '../assets/vclogo.png'
 const projectInfo = {
   "projects": {
     "8bit_master": {
