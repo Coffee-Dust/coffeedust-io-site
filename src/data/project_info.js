@@ -9,9 +9,19 @@ const projectInfo = {
     "demo": false,
     "desc": (
     <article>
-      This was my first official programming endeavor. After reading through books and watching many tutorials about Swift, I finally got a good enough feel for the Apple Swift language and went to work designing this game!<br/>
-      I designed all of the graphics and art, even the soundtrack. <br/>
-      It featured 1 playable game on released version, Meteoroids.<br/>
+      
+      <a href="https://appadvice.com/app/the-8-bit-master-the-handheld-gaming-console/1213057100" target="_blank" rel="noreferrer">
+        <button style={{height: 30, backgroundColor: "antiquewhite", padding: "1px 6px 1px 6px", borderRadius: 10, textAlign: 'center'}}>
+          <span style={{fontSize: '1.8em', verticalAlign: "middle"}}></span> <span style={{fontSize: "1.2em", fontFamily: "'Souce-Code-Pro', monospace", verticalAlign: "middle"}}> Archived App Store Page</span>
+        </button>
+      </a>
+
+      <p>
+        This was my first official programming endeavor. After reading through books and watching many tutorials about Swift, I finally got a good enough feel for the Apple Swift language and went to work designing this game!<br/>
+        I designed all of the graphics and art, even the soundtrack. <br/>
+        It featured 1 playable game on released version, Meteoroids.<br/>
+      </p>
+
       <h4>Highlights of the 8-bit Master</h4>
       <ul>
         <li>It featured an intuitive virtual game console interface</li>
