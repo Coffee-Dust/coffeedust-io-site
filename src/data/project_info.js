@@ -159,11 +159,11 @@ const projectInfo = {
           </p>
           <h4>Some Highlights</h4>
           <ul>
-            <li>Engineered in a way that separates the Console's(app's) 'hardware' and 'software' systems. That allows for better code management and growth. I also built it in a way that allows code to be reused in multiple different games.</li>
+            <li>Engineered in a way that separates the Console’s(app) ‘hardware’ and ‘software’ components, which allows for better code management and feature growth. It’s also architected in a way that allows for code reusability in multiple different games and system menu scenes.</li>
             <li>Currently holds 2 playable games inside of it(more on the way), <strong>Meteoroids</strong> and <strong>Bit-Breaker</strong>.</li>
             <li><strong>Meteoroids</strong> is an arcade space shooter that features power-ups and player upgradable abilities. </li>
             <li><strong>Bit-Breaker</strong> is a breakout style game with randomly generated levels(as of version bbv0.2).</li>
-            <li>It features SpriteKit as the physics engine, UIKit for handling 'virtual-analog' button touch events as well as all of the console's UI layout, and CloudKit for persisting user data when connected online, otherwise stores data locally until it can be synced.</li>
+            <li>Features SpriteKit as the physics engine, UIKit for handling ‘virtual-analog’ button touch events, as well as all of the app’s UI layout. Storage and data persistence is handled with CloudKit when connected online; otherwise, it securely saves data locally until it can be synced.</li>
           </ul>
         </article>
       ),
