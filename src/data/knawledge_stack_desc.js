@@ -5,11 +5,11 @@ const stackKnawledgeDesc = {
   <article>
     <h2>Ruby</h2>
     <p>
-      This is one of the initial programming languages I learned after Swift. I do enjoy the simple syntax of the language, however I prefer statically-typed languages.<br/>
+      This is one of the initial programming languages I learned after Swift. I do enjoy the simple syntax of the language. However, I prefer statically-typed languages.<br/>
       <br/>
-      I've learned most of the ins and outs of this language, such as its method based approach to properties, and some more complicated things, like it's concurrent multi-threading system.<br/>
+      I've learned most of the ins and outs of this language, such as its method-based approach to properties, and some more complicated things, like its concurrent multi-threading system.<br/>
       <br/>
-      Most of the portfolio projects I've built, use Ruby in some way. However, the projects I have below were mostly made with just Ruby, no major Frameworks.
+      Most of the portfolio projects I've built use Ruby in some way. However, the projects I have below were mostly made with just Ruby, with no major frameworks.
     </p>
     <div className="Page-about-desc-project-icons">
       <h4>Projects that used this language.</h4>
@@ -39,8 +39,8 @@ const stackKnawledgeDesc = {
   <article>
     <h2>Swift</h2>
     <p>
-      I love Swift! In fact, I'm an early adopter of it, since it's offical release. It quickly became one of my favorite languages, even with the memory leaks that you always have to keep an eye for.(ARC's are cool!)<br/>
-      I started learning this languages shortly after it was realeased by apple around 2015. In fact I really starting diving deep into iOS development right out of high school.
+      I love Swift! In fact, I'm an early adopter of it, since it's offical release. It quickly became one of my favorite languages, even with the memory leaks that you always have to keep an eye for. (ARCs are cool!)<br/>
+      I started learning this language shortly after it was released by Apple around 2015. In fact, I really started to dive deep into iOS development right out of high school.
     </p>
     <div className="Page-about-desc-project-icons">
       <h4>Projects that used this language.</h4>
