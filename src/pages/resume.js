@@ -89,7 +89,7 @@ function ResumePage() {
             <h4>Full Stack Software Engineer</h4> <span>Remote</span>
           </div>
           <div className="split">
-            <span className="desc">Independent - Part Time</span> <span>08/2017 - 09/2021</span>
+            <span className="desc">CoffeeDust.io - Self-employed</span> <span>08/2017 - 09/2021</span>
           </div>
           <ul>
             <li>Developed both frontend and backend features for clients on a handful of web applications and projects.</li>
