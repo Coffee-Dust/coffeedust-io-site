@@ -147,7 +147,7 @@ const projectInfo = {
               <img src={VirtCoffLogo} style={{height: "100%", verticalAlign: "middle"}}/> <span style={{fontSize: "1.2em", fontFamily: "'Souce-Code-Pro', monospace", verticalAlign: "middle"}}> Promo Page</span>
             </button>
           </a>
-          <a href="//download.virtually8bit.virtually.coffee/" target="_blank" rel="noreferrer">
+          <a href="https://apps.apple.com/us/app/virtually-8-bit-game-console/id1634501013" target="_blank" rel="noreferrer">
             <button style={{height: 30, backgroundColor: "antiquewhite", padding: "1px 6px 1px 6px", borderRadius: 10, textAlign: 'center'}}>
               <span style={{fontSize: '1.8em', verticalAlign: "middle"}}></span> <span style={{fontSize: "1.2em", fontFamily: "'Souce-Code-Pro', monospace", verticalAlign: "middle"}}> App Store Page</span>
             </button>
